@@ -56,11 +56,11 @@ h1 {
 }
 
 #nav-menu a:hover {
-    border-bottom: 2px solid #d1c9c69d;
+    border-bottom: 2px solid #826f60b5;
 }
 
 .current {
-    border-bottom: 2px solid #d1c9c69d;
+    border-bottom: 2px solid #826f60b5;
 }
 
 /* Main image and text */
