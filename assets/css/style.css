@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Playfair+Display:wght@400;900&display=swap');
 
 body {
     font-family: Playfair Display, Arial, Helvetica, sans-serif;
@@ -14,43 +14,65 @@ body {
 }
 
 /* Headings and logo */
-h1, h2 {
+header {
+    background-color: #d1c9c6;
+}
+
+h1 {
     font-family: Playfair Display, sans-serif;
+    font-weight: 900;
+    line-height: 75px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: brown;
+    color: #826f60;
 }
 
 #logo {
+    text-decoration: none;
     float: left;
-    font-size: 200%;
+    font-size: 250%;
     margin-left: 30px;
 }
 
 #nav-menu {
-    font-size: 110%;
+    height: 70px;
+    font-size: 100%;
     letter-spacing: 4px;
 }
 
 #nav-menu li {
     float: right;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 70px;
 }
 
 #nav-menu a {
+    text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: #826f60;
 }
 
-#nav-menu, #logo {
+#nav-menu, .logo {
     line-height: 75px;
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #826f60;
 }
 
 .current {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #826f60;
+}
+
+/* Main image */
+#main {
+    background-color: #d1c9c64a;
+}
+
+#main-image {
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/hero-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
 }
