@@ -3,4 +3,28 @@
 body {
     font-family: Playfair Display, Arial, Helvetica, sans-serif;
     font-weight: 900;
+    color: black;
 }
+
+/* Remove default values */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Headings and logo */
+h1, h2 {
+    font-family: Playfair Display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: brown;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+
