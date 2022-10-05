@@ -127,18 +127,17 @@ h1 {
     height: 750px;
 }
 
-#about-left {
-    display: block;
+#about-right {
     background-color: red;
     padding-top: 25px;
     width: 50%;
-    float: left;
+    float: right;
 }
 
 
-#about-right {
+#about-left {
     background-color: pink;
     padding-top: 25px;
     width: 50%;
-    float: right;
+    float: left;
 }
