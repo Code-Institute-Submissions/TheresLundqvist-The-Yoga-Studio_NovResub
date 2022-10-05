@@ -320,13 +320,25 @@ h1 {
     text-decoration: none;
 }
 
-/* blog post one */
-#post-one h3 {
+/* Style for blog post pages */
+#blog-post h3 {
     color: #826f60;
     font-weight: 600;
 }
 
-#post-one h2 {
+#blog-post h2 {
     color: #826f60;
     font-size: 200%;
+}
+
+/* Gallery */
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
