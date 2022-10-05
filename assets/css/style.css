@@ -129,30 +129,31 @@ h1 {
     float: left;
     padding-top: 30px;
     background-color: #d1c9c6;
-    height: 750px;
+    height: 890px;
 }
 
 #img-left {
     background-image: url(../images/together600px.jpg);
     background-repeat: no-repeat;
-    border: 5px solid #f2efee;
+    border: 5px solid #826f60;
     width: 550px;
     height: 400px;
 
-    left: 100px;
+    left: 350px;
 
     position: relative;
 }
 
 .about-text-left {
-    width: 550px;
+    text-align: right;
+    width: 580px;
     color: #826f60;
     font-family: Playfair Display, sans-serif;
     font-weight: 400;
-    font-size: 120%;
+    font-size: 110%;
 
     bottom: -50px;
-    left: 100px;
+    left: 320px;
 
     position: relative;
 }
@@ -161,6 +162,7 @@ h1 {
     font-weight: 900;
     font-size: 280%;
     border-bottom: 2px solid #826f60;
+    margin-bottom: 10px;
 }
 
 #about-right {
@@ -168,30 +170,42 @@ h1 {
     float: right;
     padding-top: 30px;
     background-color: #d1c9c6;
-    height: 750px;
+    height: 890px;
 }
 
 #img-right {
-    background-image: url(../images/together600px.jpg);
+    background-image: url(../images/together2-600px.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: auto;
+    border: 5px solid #826f60;
+    width: 550px;
     height: 400px;
+
+    top: 80px;
+    right: -50px;
+
+    position: relative;
 }
 
 .about-text-right {
-    width: 60%;
+    width: 580px;
     background-color: #d1c9c69d;
     color: #826f60;
     font-family: Playfair Display, sans-serif;
     font-weight: 400;
-    font-size: 100%;
-    padding-bottom: 21px;
+    font-size: 110%;
+
+    top: 0px;
+    left: 50px;
+
+    position: relative;
 }
 
 .about-text-right h2 {
     font-weight: 900;
-    font-size: 180%;
+    font-size: 280%;
+    border-bottom: 2px solid #826f60;
+    margin-bottom: 10px;
 }
 
 
