@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
 
 body {
     font-family: Playfair Display, Arial, Helvetica, sans-serif;
@@ -307,6 +307,10 @@ h1 {
     font-weight: 900;
 }
 
+.blog-preview i {
+    font-size: 280%;
+}
+
 .blog-preview p {
     font-weight: 400;
     color: #826f60;
@@ -314,4 +318,15 @@ h1 {
 
 .blog-preview a {
     text-decoration: none;
+}
+
+/* blog post one */
+#post-one h3 {
+    color: #826f60;
+    font-weight: 600;
+}
+
+#post-one h2 {
+    color: #826f60;
+    font-size: 200%;
 }
