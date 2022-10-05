@@ -215,20 +215,20 @@ h1 {
     height: 700px;
 }
 
-#customer1 {
+#reviews1 {
     background-color: antiquewhite;
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#customer2 {
+#reviews2 {
     background-color: bisque;
     width: 33%;
     margin: 0 auto;
 }
 
-#customer3 {
+#reviews3 {
     background-color: aqua;
     padding-top: 30px;
     width: 33%;
