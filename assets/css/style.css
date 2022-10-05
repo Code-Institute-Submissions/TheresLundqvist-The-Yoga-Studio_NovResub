@@ -210,9 +210,29 @@ h1 {
     text-align: center;
 }
 
-/* The studio atmosphere */
-#reviews {
-    height: 750px;
-    background-color: #d1c9c69d;
+/* Customer reviews */
+.reviews {
+    height: 700px;
 }
+
+#customer1 {
+    background-color: antiquewhite;
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#customer2 {
+    background-color: bisque;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#customer3 {
+    background-color: aqua;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
 
