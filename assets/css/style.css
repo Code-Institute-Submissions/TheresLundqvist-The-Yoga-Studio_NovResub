@@ -64,7 +64,7 @@ h1 {
 }
 
 /* Main image and text */
-.main {
+#main {
     background-color: #f2efee;
 }
 
@@ -209,3 +209,10 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* The studio atmosphere */
+#reviews {
+    height: 750px;
+    background-color: #d1c9c69d;
+}
+
