@@ -211,28 +211,34 @@ h1 {
 }
 
 /* Customer reviews */
-.reviews {
-    height: 700px;
+#reviews {
+    height: 600px;
 }
 
-#reviews1 {
-    background-color: antiquewhite;
-    padding-top: 30px;
+#reviews h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 280%;
+    color: #826f60b5;
+}
+
+#customer1 {
     width: 33%;
+    height: 300px;
     float: left;
+    background-color: #826f60;
 }
 
-#reviews2 {
-    background-color: bisque;
+#customer2 {
     width: 33%;
-    margin: 0 auto;
-}
-
-#reviews3 {
-    background-color: aqua;
-    padding-top: 30px;
-    width: 33%;
+    height: 300px;
     float: right;
+    background-color: #826f60;
 }
 
-
+#customer3 {
+    width: 33%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #826f60;
+}
