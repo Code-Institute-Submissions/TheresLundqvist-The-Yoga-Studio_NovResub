@@ -90,7 +90,7 @@ h1 {
     padding: 10px 0px 30px;
     
     bottom: 320px;
-    right: 520px;
+    right: 620px;
 
     position: absolute;
 }
@@ -108,7 +108,7 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
     
-    bottom: 80px;
+    top: 700px;
     right: 10px;
 
     position: absolute;
@@ -270,13 +270,17 @@ h1 {
 }
 
 /* footer */
-#footer {
+footer {
+    float: left;
     width: 100%;
+    margin: 1%;
+    padding: 5%;
     height: 150px;
-    position: fixed;
-    bottom: 0;
-    margin-top: 15px;
-    text-align: center;
+
+    left: -110px;
+    bottom: 50px;
+
+    position: relative;
 }
 
 .social-media {
@@ -285,7 +289,6 @@ h1 {
 
 .social-media > li {
     display: inline;
-    margin: 0 15px;
 }
 
 .social-media i {
@@ -341,4 +344,49 @@ h1 {
 
 #photos > img {
     width: 100%;
+}
+
+/* media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+/* For larger screens sizes from 1750px wide and down */
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #nav-menu {
+        right: 30px;
+        position: relative;
+    }
+
+    #read-more {
+        bottom: 0;
+    }
+
+    #main-image {
+        background-size: contain;
+        background-position: top;
+
+        top: 100px;
+
+        position: relative;
+    }
+
+    #about-left {
+        background-color: #f2efee;
+        padding-top: 0px;
+    }
+
+    .about-text-left {
+        font-size: 100%;
+        left: 20px;
+        bottom: 10px;
+        top: 10px;
+    }
+
+    #img-left {
+        left: 10px;
+        width: 360px;
+        height: 350px;
+    }
 }
