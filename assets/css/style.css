@@ -27,7 +27,7 @@ h1 {
 }
 
 #logo {
-    text-decoration: none;
+    text-decoration: underline;
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -89,7 +89,7 @@ h1 {
 
     padding: 10px 0px 30px;
     
-    top: 150px;
+    bottom: 320px;
     right: 520px;
 
     position: absolute;
@@ -108,7 +108,7 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
     
-    bottom: 50px;
+    bottom: 80px;
     right: 10px;
 
     position: absolute;
