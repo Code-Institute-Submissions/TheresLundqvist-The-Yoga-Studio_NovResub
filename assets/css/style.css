@@ -213,6 +213,7 @@ h1 {
 /* Customer reviews */
 #reviews {
     height: 600px;
+    background-color: #d1c9c6;
 }
 
 #reviews h1 {
@@ -223,22 +224,30 @@ h1 {
 }
 
 #customer1 {
-    width: 33%;
+    text-align: center;
+    width: 20%;
     height: 300px;
     float: left;
-    background-color: #826f60;
+    background-color: red;
+    padding: 20px 20px;
+    margin-left: 150px;
 }
 
 #customer2 {
-    width: 33%;
+    text-align: center;
+    width: 20%;
     height: 300px;
     float: right;
-    background-color: #826f60;
+    background-color: green;
+    padding: 20px 20px;
+    margin-right: 150px;
 }
 
 #customer3 {
-    width: 33%;
+    text-align: center;
+    width: 20%;
     height: 300px;
     margin: 0 auto;
-    background-color: #826f60;
+    background-color: blue;
+    padding: 20px 20px;
 }
