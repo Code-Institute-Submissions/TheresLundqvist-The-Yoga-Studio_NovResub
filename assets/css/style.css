@@ -121,3 +121,24 @@ h1 {
     border-width: 10px;
     background: #d1c9c6;
 }
+
+/* About section */
+#about {
+    height: 750px;
+}
+
+#about-left {
+    display: block;
+    background-color: red;
+    padding-top: 25px;
+    width: 50%;
+    float: left;
+}
+
+
+#about-right {
+    background-color: pink;
+    padding-top: 25px;
+    width: 50%;
+    float: right;
+}
