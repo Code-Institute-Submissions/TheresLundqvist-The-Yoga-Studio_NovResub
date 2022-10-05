@@ -125,19 +125,63 @@ h1 {
 /* About section */
 #about {
     height: 750px;
+    margin: 25px;
+
+    position: relative;
+}
+
+#img-left {
+    height: 330px;
+    color: black;
+    background-color: #826f60;
+    width: 45%;
+    margin-left: 50px;
+
+    position: relative;
+
+    margin-bottom: 25px;
+    padding-top: 25px;
 }
 
 #about-right {
+    height: 330px;
+    width: 45%;
+    right: 0;
+
+    top: 0px;
+    right: 25px;
+
+    position: absolute;
+    
     background-color: red;
+    margin: 0 25px 25px;
     padding-top: 25px;
-    width: 50%;
-    float: right;
 }
 
 
 #about-left {
+    height: 330px;
+    width: 45%;
     background-color: pink;
     padding-top: 25px;
-    width: 50%;
     float: left;
+    margin-left: 50px;
+
+    position: relative;
+
+}
+
+#img-right {
+    height: 330px;
+    width: 45%;
+    right: 0;
+
+    top: 380px;
+    right: 25px;
+
+    position: absolute;
+    
+    background-color: blue;
+    margin: 0 25px 25px;
+    padding-top: 25px;
 }
