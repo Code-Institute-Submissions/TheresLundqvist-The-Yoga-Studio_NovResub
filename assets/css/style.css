@@ -294,3 +294,24 @@ h1 {
     padding: 5%;
     color: #826f60;
 }
+
+/* Blog post preview */
+
+.blog-preview {
+    font-size: 100%;
+    margin: 50px;
+}
+
+.blog-preview h1 {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.blog-preview p {
+    font-weight: 400;
+    color: #826f60;
+}
+
+.blog-preview a {
+    text-decoration: none;
+}
