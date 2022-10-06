@@ -94,7 +94,7 @@ h1 {
     width: 110px;
     height: 50px;
     
-    bottom: 190px;
+    bottom: 250px;
     right: 30px;
 
     position: absolute;
@@ -304,7 +304,7 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 
-/* For big screens sizes from 1750px wide and up */
+/* For big screens sizes from 1750px wide and up
 @media screen and (min-width: 1750px) {
     #main-text {
         right: 350px;
@@ -320,7 +320,7 @@ footer {
     }
 }
 
-/* For big screens sizes from 1500px wide and up */
+/* For big screens sizes from 1500px wide and up 
 @media screen and (min-width: 1500px) {
     #main-text {
         right: 20px;
@@ -349,7 +349,7 @@ footer {
     }
 }
 
-/* For big screens sizes from 1200px wide and up */
+/* For big screens sizes from 1200px wide and up 
 @media screen and (min-width: 1200px) {
     #main-image {
         background-size: cover;
@@ -384,8 +384,63 @@ footer {
     }
 }
 
+/* For big screens sizes from 992px wide and up
+@media screen and (min-width: 992px) {
+   
+    #main-text {
+        font-size: 150%;
+        right: 250px;
+        height: 100px;
+    }
 
+    #read-more {
+        right: 20px;
+        bottom: 170px;
+    }
 
+    #about-right {
+        top: 20px;
+    }
+
+    .about-heading h2 {
+        font-size: 150%;
+    }
+
+    .about-heading p {
+        font-size: 70%;
+    }
+
+    #img-left {
+        right: 30px;
+    }
+
+    #about-right {
+        left: 30px;
+    }
+
+    #reviews h2 {
+        font-size: 130%;
+        line-height: 100px;
+    }
+
+    .reviewer {
+        font-size: 120%;
+    }
+
+    #customer1 {      
+        margin-left: 50px;
+        padding: 30px 20px;
+    }
+
+    #customer2 {
+        margin-right: 50px;
+    }
+
+    #customer1, #customer2, #customer3 {
+        font-size: 110%;
+        width: 25%;
+    }
+} 
 
 
 
