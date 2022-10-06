@@ -16,12 +16,12 @@ body {
 /* Logo and navigation */
 header {
     height: 100px;
-    background-color: #d1c9c6;
+    background-color: #826f60;
 }
 
 h1 {
     line-height: 100px;
-    color: #826f60;
+    color: #d1c9c69d;
 }
 
 #logo {
@@ -45,7 +45,7 @@ h1 {
 
 #nav-menu a {
     text-decoration: none;
-    color: #826f60;
+    color: #d1c9c69d;
 }
 
 #nav-menu, #logo {
@@ -53,11 +53,11 @@ h1 {
 }
 
 #nav-menu a:hover {
-    border-bottom: 2px solid #826f60b5;
+    border-bottom: 2px solid #d1c9c69d;
 }
 
 .current {
-    border-bottom: 2px solid #826f60b5;
+    border-bottom: 2px solid #d1c9c69d;
 }
 
 /* Main image and text */
@@ -75,7 +75,7 @@ h1 {
 }
 
 #main-text {
-    background-color: #d1c9c69d;
+    background-color: #d1c9c6eb;
     border-radius: 0 1vw;
     color: #826f60b5;
     font-size: 2vw;
@@ -106,7 +106,7 @@ h1 {
     color: #826f60b5;
     border: 1px solid #d1c9c69d;
     border-radius: 0 1vw;
-    background: #d1c9c69d;
+    background-color: #d1c9c6eb;
     padding: 10px;
 }
 
@@ -142,7 +142,7 @@ h1 {
 
 #img-left {
     float: right;
-    background-image: url(../images/left-about.jpeg);
+    background-image: url(../images/left-about.webp);
     background-repeat: no-repeat;
     border: 1px solid #d1c9c6;
     border-radius: 1vw;
@@ -224,11 +224,12 @@ h1 {
 
 /* footer */
 footer {
-    height: 100px;
+    background-color: #826f60;
 }
 
 .social-media {
     text-align: center;
+    margin-top: 50px;
 }
 
 .social-media > li {
@@ -236,9 +237,9 @@ footer {
 }
 
 .social-media i {
-    font-size: 280%;
+    font-size: 5vw;
     padding: 4%;
-    color: #826f60;
+    color: #d1c9c69d;
 }
 
 /* Blog post preview */
@@ -249,8 +250,9 @@ footer {
 }
 
 .blog-preview h1 {
+    color: #826f60;
     line-height: 50px;
-    border-bottom: 1px solid #826f60;
+    border-bottom: 2px solid #d1c9c69d;
     font-size: 2.4vw;
     font-weight: 900;
 }
@@ -289,4 +291,136 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1440px wide and down */
+@media screen and (max-width: 1440px) {
+    #main-image {
+        background-size: contain;
+    }
+
+    #read-more {
+        bottom: 120px;
+        right: 30px;
+    }
+}
+
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #main-image {
+        background-size: contain;
+    }
+
+    #read-more {
+        bottom: 220px;
+        right: 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+
+    #img-left {
+        right: -40px;
+    }
+}
+
+/* For larger to medium screens size from 992px wide and down */
+@media screen and (max-width: 992px) {
+    #read-more {
+        bottom: 290px;
+    }
+
+    #img-left {
+        right: -50px;
+    }
+}
+
+/* For larger to medium screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
+    #read-more {
+        bottom: 315px;
+    }
+
+    #img-left {
+        left: 10px;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+}
+
+/* For larger to medium screens size from 576px wide and down */
+@media screen and (max-width: 576px) {
+    #logo {
+        font-size: 6.5vw;
+        text-decoration: none;
+    }
+
+    #nav-menu li {
+        font-weight: 400;
+        font-size: 3.5vw;
+        margin-right: 10px;
+    }
+
+    #main-image {
+        height: 260px;
+    }
+
+    #main-text {
+        padding: 20px;
+        font-size: 2.5vw;
+        right: 25px;
+        top: 20px;
+        width: 250px;
+    }
+    
+    #read-more {
+        top: 110px;
+        font-size: 2.5vw;
+        top: 150px;
+        right: 20px;
+    }
+
+    #about-right {
+        right: 10px;
+        z-index: 2;
+        width: 95%;
+        line-height: 10px;
+    }
+
+    .about-heading h2 {
+        font-size: 3vw;
+    }
+
+    .about-heading p {
+        font-size: 2.2vw;
+        font-style: oblique;
+    }
+
+    #img-left {
+        left: 170px;
+        top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .blog-preview h1 {
+        font-size: 2vw;
+    }
+
+    #photos {
+        column-count: 1;
+    }
+
+    #customer1 {
+        margin-left: 0.5vw;
+    }
+
+    #customer2 {
+        margin-right: 0.5vw;
+    }
 }
