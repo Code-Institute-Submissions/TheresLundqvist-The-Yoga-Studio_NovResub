@@ -304,9 +304,36 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 
-/* For larger screens sizes from 1750px wide and down */
+/* For big screens sizes from 1750px wide and up */
+@media screen and (min-width: 1750px) {
+    #main-text {
+        right: 350px;
+    }
 
-/* For small screen sizes below 800px width */
+    #read-more {
+        right: 90px;
+        bottom: 550px;
+    }
+
+    .about-heading h2 {
+        font-size: 250%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For small devices (landscape phones, less then 768px)
 @media screen and (max-width: 768px) {
     #nav-menu {
         font-size: 130%;
@@ -395,6 +422,46 @@ footer {
     #blog-post h3 {
         font-size: 110%;
     }
+} */
 
+/* For smaller screens (mobile) sizes below 576px width
+@media screen and (max-width: 576px) {
+    header {
+        height: 50px;
+    }
 
+    #logo {
+        font-size: 150%;
+        line-height: 50px;
+    }
+
+    #nav-menu {
+        font-size: 60%;
+        line-height: 50px;
+    }
+
+    #nav-menu li {
+        margin-right: 10px;
+    }
+
+    #main-image {
+        background-size: contain;
+    }
+
+    #main-text {
+        font-size: 70%;
+        height: 50px;
+        width: 200px;
+        top: 110px;
+        left: 60px;
+    }
+
+    #main-image {
+        height: 300px;
+    }
+
+    #read-more {
+
+    }
 }
+*/
