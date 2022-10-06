@@ -77,7 +77,7 @@ h1 {
     text-align: center;
 
     width: 500px;
-    height: 270px;
+    /* height: 270px; */
 
     padding: 40px;
     
@@ -111,7 +111,7 @@ h1 {
 /* About section */
 #about-us {
     color: #826f60b5;
-    height: 700px;
+    /* height: 700px;   */
     background-color: #d1c9c6;
 }
 
@@ -160,6 +160,7 @@ h1 {
 }
 
 .about-heading h2 {
+    line-height: 1;
     font-size: 290%;
     padding-bottom: 5px;
     border-bottom: 2px solid #826f60;
@@ -172,7 +173,7 @@ h1 {
 
 /* Customer reviews */
 #reviews-header {
-    height: 100px;
+    /* height: 100px; */
     background-color: #f2efee;
     text-align: center;
     font-size: 230%;
@@ -180,14 +181,14 @@ h1 {
 }
 
 #reviews {
-    height: 600px;
+    /* height: 600px; */
     background-color: #d1c9c6;
 }
 
 #customer1 {
     text-align: center;
     width: 20%;
-    height: 300px;
+    /* height: 300px; */
     float: left;
     color: #d1c9c69d;
     font-size: 140%;
@@ -202,7 +203,7 @@ h1 {
 #customer2 {
     text-align: center;
     width: 20%;
-    height: 300px;
+    /* height: 300px; */
     float: right;
     color: #d1c9c69d;
     font-size: 140%;
@@ -217,7 +218,7 @@ h1 {
 #customer3 {
     text-align: center;
     width: 20%;
-    height: 300px;
+    /* height: 300px; */
     margin: 0 auto;
     color: #d1c9c69d;
     font-size: 140%;
@@ -358,7 +359,6 @@ footer {
     #main-text {
         font-size: 200%;
         right: 300px;
-        height: 150px;
     }
 
     #read-more {
@@ -390,7 +390,6 @@ footer {
     #main-text {
         font-size: 150%;
         right: 250px;
-        height: 100px;
     }
 
     #read-more {
@@ -466,7 +465,6 @@ footer {
         padding: 10px;
         font-size: 130%;
         width: 250px;
-        height: 130px;
         top: 160px;
         left: 50px;
     }
@@ -506,7 +504,6 @@ footer {
     #customer1 {
         width: 25%;
         font-size: 105%;
-        height: 320px;
         border-radius: 5%;
         margin-left: 15px;
     }
@@ -518,7 +515,6 @@ footer {
     #customer2 {
         width: 25%;
         font-size: 105%;
-        height: 300px;
         border-radius: 5%;
         margin-right: 15px;
     }
@@ -526,7 +522,6 @@ footer {
     #customer3 {
         width: 25%;
         font-size: 105%;
-        height: 300px;
         border-radius: 5%;
     }
 
@@ -569,7 +564,6 @@ footer {
 
     #main-text {
         font-size: 70%;
-        height: 50px;
         width: 200px;
         top: 110px;
         left: 60px;
