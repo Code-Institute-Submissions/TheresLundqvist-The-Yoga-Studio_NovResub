@@ -249,7 +249,7 @@ footer {
     margin: 50px;
 }
 
-.blog-preview h1 {
+.blog-preview h2 {
     color: #826f60;
     line-height: 50px;
     border-bottom: 2px solid #d1c9c69d;
@@ -276,9 +276,9 @@ footer {
     font-weight: 600;
 }
 
-#blog-post h2 {
+#blog-post h1 {
     color: #826f60;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 /* Gallery */
@@ -412,7 +412,7 @@ footer {
         margin-bottom: 50px;
     }
 
-    .blog-preview h1 {
+    .blog-preview h2 {
         font-size: 2vw;
     }
 
