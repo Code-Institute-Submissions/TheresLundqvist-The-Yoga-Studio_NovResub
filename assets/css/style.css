@@ -339,7 +339,7 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1920px wide and down */
+/* For big screens size from 1920px wide and down */
 @media screen and (max-width: 1920px) {
     #main-text {
         width: 450px;
@@ -354,7 +354,7 @@ footer {
     }
 
     #img-left {
-        top: 100px;
+        top: 140px;
         width: 500px;
         height: 700px;
         right: 70px;
@@ -365,7 +365,7 @@ footer {
     }
 }
 
-/* For larger to medium screens size from 1650px wide and down */
+/* For extra large screens size from 1650px wide and down */
 @media screen and (max-width: 1650px) {
     #location {
         margin-bottom: 25px;
@@ -377,11 +377,11 @@ footer {
     }
 
     #img-left {
-        top: 40px;
+        top: 140px;
     }
 }
 
-/* For larger to medium screens size from 1440px wide and down */
+/* For larger screens size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
     #main-image {
         background-size: contain;
@@ -397,12 +397,9 @@ footer {
     }
 
     #location {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
-    #img-left {
-        top: 40px;
-    }
 }    
 
 
@@ -417,20 +414,20 @@ footer {
         right: 20px;
     }
 
-    /*.about-heading p {
-        line-height: 30px;
-    }*/
-
     #photos {
         column-count: 3;
     }
 
     #img-left {
-        right: -40px;
+        right: -30px;
+    }
+
+    #location {
+        margin-bottom: -20px;
     }
 }
 
-/* For larger to medium screens size from 992px wide and down */
+/* For medium screens size from 992px wide and down */
 @media screen and (max-width: 992px) {
     #read-more {
         bottom: 290px;
@@ -439,24 +436,57 @@ footer {
     #img-left {
         right: -50px;
     }
+
+    #location {
+        margin-bottom: -60px;
+    }
 }
 
-/* For larger to medium screens size from 768px wide and down */
+/* For small to medium screens size from 768px wide and down */
 @media screen and (max-width: 768px) {
     #read-more {
-        bottom: 315px;
+        bottom: 60px;
+        font-size: 2vw;
     }
 
     #img-left {
-        left: 10px;
+        right: -150px;
+        top: 50px;
     }
 
     #photos {
         column-count: 2;
     }
+
+    #location {
+        margin-bottom: -80px;
+    }
+
+    #float-right {
+        padding-top: 0;
+        line-height: 0;
+    }
+
+    #about-right {
+        width: 100%;
+        right: 50px;
+    }
+
+    .about-heading p {
+        line-height: 20px;
+        font-size: 2.5vw;
+    }
+
+    #main-image {
+        height: 350px;
+    }
+
+    #main-text {
+        width: 250px;
+    }
 }
 
-/* For larger to medium screens size from 576px wide and down */
+/* For small screens size from 576px wide and down */
 @media screen and (max-width: 576px) {
     #logo {
         font-size: 6.5vw;
@@ -501,13 +531,13 @@ footer {
 
     .about-heading p {
         font-size: 2.2vw;
-        font-style: oblique;
     }
 
     #img-left {
-        left: 170px;
-        top: 0px;
+        left: 90px;
+        top: 17px;
         margin-bottom: 50px;
+        width: 350px;
     }
 
     .blog-preview h2 {
@@ -524,5 +554,78 @@ footer {
 
     #customer2 {
         margin-right: 0.5vw;
+    }
+
+    #location-header {
+        font-size: 2.5vw;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .contact {
+        font-size: 3vw;
+    }
+
+    #float-left-text,
+    #float-right-text {
+        font-size: 2.2vw;
+    }
+
+    #location {
+        margin-bottom: -120px;
+    }
+
+    #customer2,
+    #customer1,
+    #customer3 {
+        width: 30%;
+    }
+
+    #customer1 {
+        margin-left: 1vw;
+        padding: 3px 3px 15px 3px;
+    }
+
+    #customer2 {
+        margin-right: 1vw;
+        padding: 3px 3px 15px 3px;
+    }
+
+    #customer3 {
+        padding: 3px 3px;
+    }
+
+    #reviews-header {
+        margin-bottom: 10px;
+    }
+}
+
+/* For extra small screens size from 576px wide and down */
+@media screen and (max-width: 350px) {
+    #img-left {
+        width: 250px;
+        top: 120px;
+    }
+
+    .about-heading p {
+        font-size: 3vw;
+    }
+
+    #customer1,
+    #customer2,
+    #customer3 {
+        font-size: 2vw;
+    }
+
+    #customer2 {
+        padding: 3px 3px 6px 3px;
+    }
+
+    #customer3 {
+        padding-bottom: 5px;
+    }
+
+    #location {
+        margin-bottom: -170px;
     }
 }
