@@ -9,7 +9,7 @@ Users of the webpage will be able to find inspiration through the studio gallery
 Users will easily find location and contact information at the bottom of page in form of address, contact info and clickable social media links.  
 This website is to increase the awerness of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives in the area of the studios location. 
 
-<img width="1000" src="documentation/screenshot-responsive.PNG">
+<img width="1000" src="documentation/screenshot-responsive.png">
 
 ---
 ## **Features** 
@@ -18,10 +18,10 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
  * The top of the page shows the studio name, a clickable link that takes user back to homepage.
  * To the right of the navigation user can find links to home, blog and gallery pages.
- * The navigation has a light font and a darker background for good contrast.
+ * The navigation has a dark font and a lighter background for good contrast.
  * The studio name has a bigger font than the navigation bar to make a clear statement of the name of studio and webpage.
 
- <img width="1000" src="documentation/header.PNG">
+ <img width="1000" src="documentation/header.png">
 
 ### **The main section**
 
@@ -30,7 +30,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 * Under the intriguing main text is a clickable read more button that takes users to about section further down the page.
 * The previous colors from the header is switched up in the main section with headers background as font color and vice versa. 
 
-<img width="1000" src="documentation/main.PNG">
+<img width="1000" src="documentation/main.png">
 
 ### **The about section**
 * The about section gives the users more information about the studio and location.
@@ -38,7 +38,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 * The same woman from the main section accours in this sections again to maintain a common tread.
 * The colors from the header recur in this section.
 
-<img width="1000" src="documentation/about-section.PNG">
+<img width="1000" src="documentation/about-section.png">
 
 
 ### **Customer reviews**
@@ -47,7 +47,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 * The goal is to reenforce the user that the studio is worth a visit.
 * The colors from main section recurs here to create a good balance between sections.
 
-<img width="1000" src="documentation/reviews.PNG">
+<img width="1000" src="documentation/reviews.png">
 
 ### **The contact section**
 
@@ -55,14 +55,14 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 * This section also gives user contact information to call or email.
 * The page matches the colors from about section with same box style.
 
-<img width="1000" src="documentation/contact.PNG">
+<img width="1000" src="documentation/contact.png">
 
 ### **The footer section**
 * The footer section is linked with all social media platforms the studio is connected to.
 * The page links to facebook, instagram, twitter and youtube and opens i new tabs when clicked.
 * The colors from the header at the top, matches the colors in this section at the bottom of page - to create a nice frame to page.
 
-<img width="1000" src="documentation/social-media.PNG">
+<img width="1000" src="documentation/social-media.png">
 
 ## **Blog page**
 
@@ -73,20 +73,20 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 * The blog preview page is arrenged to fit in with colors from the home page.
 * The magnifying glas icon is used to hint to users that the area is a clickable link that will redirect them.
 
-<img width="1000" src="documentation/blog-main.PNG">
+<img width="1000" src="documentation/blog-main.png">
 
 ### **Full blog post pages**
 
 * The full blog post pages is color indentical to its parent blog page - the blog preview page.
 
-<img width="1000" src="documentation/Full-blog-post.PNG">
+<img width="1000" src="documentation/full-blog-post.png">
 
 ## **Gallery**
 
 * Matching photos is combined in one page to give inspiration to users.
 * The gallery is responsive and changes from 4 columns - to three - to two and lastly to one in small devices.
 
-<img width="1000" src="documentation/gallery.PNG">
+<img width="1000" src="documentation/gallery.png">
 
 ---
 
@@ -102,7 +102,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 * When I deployed my project to Github pages I discovered my project was broken, the links to the other files (CSS, blog and gallery) dit not work.
 * I discovered this was because I had used aboulte file paths such as this in my code
 
-![bug, wrong filepath](documentation/filepath.PNG)
+![bug, wrong filepath](documentation/filepath.png)
 
 * When I removed the / from the start of the path the problem was fixed.
 
@@ -117,7 +117,7 @@ No errors were found when passing through the official (Jigsaw) validator.
 * Accessability
 I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-<img width="1000" src="documentation/Lighthouse-score.PNG">
+<img width="1000" src="documentation/lighthouse-score.png">
 
 ---
 

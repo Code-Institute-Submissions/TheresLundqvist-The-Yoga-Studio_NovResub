@@ -21,7 +21,7 @@ header {
 
 h1 {
     line-height: 100px;
-    color: #d1c9c69d;
+    color: #54473c;
 }
 
 #logo {
@@ -45,7 +45,7 @@ h1 {
 
 #nav-menu a {
     text-decoration: none;
-    color: #d1c9c69d;
+    color: #54473c;
 }
 
 #nav-menu, #logo {
@@ -53,11 +53,11 @@ h1 {
 }
 
 #nav-menu a:hover {
-    border-bottom: 2px solid #d1c9c69d;
+    border-bottom: 2px solid #54473c;
 }
 
 .current {
-    border-bottom: 2px solid #d1c9c69d;
+    border-bottom: 2px solid #54473c;
 }
 
 /* Main image and text */
@@ -600,7 +600,7 @@ footer {
     }
 }
 
-/* For extra small screens size from 576px wide and down */
+/* For extra small screens size from 350px wide and down */
 @media screen and (max-width: 350px) {
     #img-left {
         width: 250px;
@@ -627,5 +627,13 @@ footer {
 
     #location {
         margin-bottom: -170px;
+    }
+
+    #main-text {
+        font-size: 4.5vw;
+    }
+
+    #read-more {
+        font-size: 3vw;
     }
 }
