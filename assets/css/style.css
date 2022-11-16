@@ -16,7 +16,7 @@ body {
 /* Logo and navigation */
 header {
     height: 100px;
-    background-color: #826f60;
+    background-color: #cdc2ba;
 }
 
 h1 {
@@ -75,9 +75,9 @@ h1 {
 }
 
 #main-text {
-    background-color: #d1c9c6eb;
+    background-color: #54473c;
     border-radius: 0 1vw;
-    color: #826f60b5;
+    color: #cdc2ba;
     font-size: 2vw;
     text-align: center;
     width: 300px;
@@ -103,10 +103,10 @@ h1 {
 
 #read-more a {
     text-decoration: none;
-    color: #826f60b5;
-    border: 1px solid #d1c9c69d;
+    color: #cdc2ba;
+    border: 1px solid #54473c;
     border-radius: 0 1vw;
-    background-color: #d1c9c6eb;
+    background-color: #54473c;
     padding: 10px;
 }
 
@@ -157,8 +157,8 @@ h1 {
 
 .about-heading {
     font-size: 1vw;
-    background-color: #826f60b5;
-    color: #d1c9c6;
+    background-color: #cdc2ba;
+    color: #54473c;
     border-radius: 0 1vw;
     padding: 20px;
 }
@@ -167,7 +167,7 @@ h1 {
     line-height: 1;
     font-size: 3.3vw;
     padding-bottom: 5px;
-    border-bottom: 2px solid #d1c9c6;
+    border-bottom: 2px solid #54473c;
 }
 
 .about-heading p {
@@ -178,11 +178,12 @@ h1 {
 
 /* Customer reviews */
 #reviews-header {
-    background-color: #f2efee;
+    background: #54473c;
     text-align: center;
     font-size: 2.5vw;
-    color: #826f60b5;
+    color: #cdc2ba;
     margin-bottom: 30px;
+    padding: 10px;
 }
 
 #reviews {
@@ -194,10 +195,10 @@ h1 {
 #customer3 {
     text-align: center;
     width: 20%;
-    color: #826f60b5;
+    color: #54473c;
     font-size: 1.5vw;
     font-weight: 400;
-    background-color: #d1c9c69d;
+    background-color: #cdc2ba;
     padding: 30px 20px;
     border-radius: 1vw;
 }
@@ -228,21 +229,21 @@ h1 {
     padding: 10px;
     text-align: center;
     font-size: 1.5vw;
-    color: #d1c9c6;
-    background-color: #826f60b5;
+    color: #cdc2ba;
+    background-color: #54473c;
     margin-bottom: 30px;
 }
 
 #location {
     height: 300px;
     clear: both;
-    color: #826f60b5;
+    color: #54473c;
 }
 
 .contact {
-    color: #826f60b5;
+    color: #54473c;
     font-size: 2.5vw;
-    border-bottom: 2px solid #826f6078;
+    border-bottom: 2px solid #54473c;
 }
 
 #float-left-text,
@@ -253,7 +254,7 @@ h1 {
     text-align: center;
     font-size: 1.5vw;
     font-weight: 400;
-    background-color: #d1c9c69d
+    background-color: #cdc2ba;
 }
 
 #float-left-text {
@@ -268,7 +269,7 @@ h1 {
 
 /* footer */
 footer {
-    background-color: #826f60;
+    background-color: #54473c;
 }
 
 .social-media {
@@ -282,7 +283,7 @@ footer {
 
 .social-media i {
     font-size: 4vw;
-    color: #d1c9c69d;
+    color: #cdc2ba;
     padding: 5px 5px;
 }
 
