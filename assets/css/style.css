@@ -15,14 +15,15 @@ body {
 
 /* Logo and navigation */
 header {
-    background-color: #cdc2ba;
+    background-color: #f2efee;
     display: flex;
     padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 h1 {
     color: #cdc2ba;
-    margin-right: 25vw;
+    margin-right: 20vw;
 }
 
 #logo-container a {
@@ -30,12 +31,11 @@ h1 {
 }
 
 #logo {
-    border-radius: 0 1vw;
-    padding: 0px 35px;
+    border-radius: 0 1vw 1vw 0;
+    padding: 0px 35px 10px 35px;
     background-color: #54473c;
-    font-weight: 600;
-    font-size: 4vw;
-    margin-left: 30px;
+    font-weight: 900;
+    font-size: 5vw;
 }
 
 #logo i {
@@ -47,7 +47,7 @@ nav {
 }
 
 .nav-container {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 20px;
     font-size: 3vw;
 }
@@ -76,7 +76,7 @@ main {
     background-color: #f2efee;
     height: 100vh;
     width: 70%;
-    border-radius: 0 0 1vw 0;
+    border-radius: 0 1vw 1vw 0;
 }
 
 #main-text {
