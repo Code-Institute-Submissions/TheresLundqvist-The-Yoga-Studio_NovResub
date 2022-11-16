@@ -13,25 +13,25 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">The Yoga Studio</h1>
-        </a>
+        <div id="logo-container">
+            <a href="index.html">
+                <h1 id="logo">The Yoga Studio <i class="fa-solid fa-feather-pointed"></i></h1>
+            </a>
+        </div>
         <nav>
-            <ul id="nav-menu">
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="blog/blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="index.html" class="current">Home</a>
-                </li>
-            </ul>
+            <div class="nav-container">
+                <a href="index.html" class="current">Home</a>
+            </div>
+            <div class="nav-container">
+                <a href="blog/blog.html">Blog</a>
+            </div>
+            <div class="nav-container">
+                <a href="gallery.html">Gallery</a>
+            </div>
         </nav>
     </header>
     <!-- main -->
-    <main id="main-container">
+    <main>
         <div id="main-image"></div>
         <div id="main-text">
             <h2>A peaceful sanctuary for mind and body</h2>
@@ -42,12 +42,11 @@
     </main>
     <!-- about section -->
     <section id="about-us">
-        <div id="float-left">
-            <div id="img-left"></div>
+        <div class="about-containers">
+            <img src="assets/images/left-about.webp" alt="Girl in yoga pose">
         </div>
-        <div id="float-right">
-            <div id="about-right">
-                <div class="about-heading">
+        <div class="about-containers">
+                <div class="about">
                     <h2>About The Yoga Studio <i class="fa-solid fa-feather-pointed"></i></h2>
                     <p>
                         We are one of Luleå's oldest and most experienced yoga studios with solid knowledge in the
@@ -62,7 +61,7 @@
                 </div>
                 <br>
                 <br>
-                <div class="about-heading">
+                <div class="about">
                     <h2>Welcome to the heat &nbsp;&nbsp;<i class="fa-solid fa-temperature-arrow-up"></i></h2>
                     <p>
                         Our yoga classes are carefully designed so that everyone can take part in the classes and get
@@ -74,44 +73,50 @@
                         to your needs.
                     </p>
                 </div>
-            </div>
         </div>
     </section>
     <!-- customer reviews -->
-    <section id="reviews">
+    <section>
         <div id="reviews-header">
             <h2>How our customers feel about us &nbsp; <i class="fa-solid fa-wand-magic-sparkles"></i></h2>
         </div>
-        <div id="customer1">
-            <p>
-                <i class="fa-solid fa-quote-left"></i> &nbsp; I`ve been struggling with hip muscle soreness and pain.
-                This is making a difference.
-                Whenever I have a question, The Yoga Studio will answer them! Good stuff here. &nbsp; <i
-                    class="fa-solid fa-quote-right"></i>
-            </p>
-            <br>
-            <h2 class="reviewer">Dave Holland</h2>
-        </div>
-        <div id="customer2">
-            <p>
-                <i class="fa-solid fa-quote-left"></i> &nbsp; I very much appreciate the work and knowledge of The Yoga
-                Studio. They really make it feel right.
-                The Yoga Studio, please keep making the wonderful classes and content; it's very good! &nbsp; <i
-                    class="fa-solid fa-quote-right"></i>
-            </p>
-            <br>
-            <h2 class="reviewer">Mirjam Gatsma</h2>
-        </div>
-        <div id="customer3">
-            <p>
-                <i class="fa-solid fa-quote-left"></i> &nbsp; What a great studio!
-                <br> My body is no longer in pain! I feel more energy and I'm looking forward to try the "back
-                challenge".
-                The Yoga Studio´s teachers is great! &nbsp; <i class="fa-solid fa-quote-right"></i>
-            </p>
-            <br>
-            <br>
-            <h2 class="reviewer">Nancy Boward</h2>
+        <div class="reviews-container">
+            <div class="customers">
+                <p>
+                    <i class="fa-solid fa-quote-left"></i> 
+                    &nbsp; I`ve been struggling with hip muscle soreness and pain.
+                    This is making a difference.
+                    Whenever I have a question, The Yoga Studio will answer them! Good stuff here. &nbsp; 
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <br>
+                <h2 class="reviewer">Dave Holland</h2>
+            </div>
+            <div class="customers">
+                <p>
+                    <i class="fa-solid fa-quote-left"></i> 
+                    &nbsp; I very much appreciate the work and knowledge of The Yoga
+                    Studio. They really make it feel right.
+                    The Yoga Studio, please keep making the wonderful classes and content; it's very good! &nbsp; 
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <br>
+                <h2 class="reviewer">Mirjam Gatsma</h2>
+            </div>
+            <div class="customers">
+                <p>
+                    <i class="fa-solid fa-quote-left"></i> 
+                    &nbsp; What a great studio!
+                    <br> 
+                    My body is no longer in pain! I feel more energy and I'm looking forward to try the "back
+                    challenge".
+                    The Yoga Studio´s teachers is great! &nbsp; 
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <br>
+                <br>
+                <h2 class="reviewer">Nancy Boward</h2>
+            </div>
         </div>
     </section>
     <!-- location and contact section -->
@@ -119,48 +124,51 @@
         <div id="location-header">
         <h2>Start Your Journey Today! &nbsp; <i class="fa-solid fa-rocket"></i></h2>
         </div>
-        <div id="float-left-text">
-            <h2 class="contact">Come join us at &nbsp; <i class="fa-solid fa-location-dot"></i></h2>
-            <br>
-            <p> 
-                The Yoga Studio<br>
-                Strandvägen 1<br>
-                954 42 Luleå
-            </p>
-        </div>
-        <div id="float-right-text">
-            <h2 class="contact">Contact us &nbsp; <i class="fa-regular fa-address-card"></i></h2>
-            <br>
-            <p> 
-                Call us: &nbsp;&nbsp; +&nbsp;&nbsp;&nbsp;4670&nbsp;-&nbsp;783&nbsp;&nbsp;874&nbsp;&nbsp;34
+        <div class="location-container">
+            <div class="location-text">
+                <h2 class="contact">Come join us at &nbsp; <i class="fa-solid fa-location-dot"></i></h2>
                 <br>
-                Email: theyogastudio@lulea.se
-            </p><br>
+                <p> 
+                    The Yoga Studio<br>
+                    Strandvägen 1<br>
+                    954 42 Luleå
+                </p>
+            </div>
+            <div class="location-text">
+                <h2 class="contact">Contact us &nbsp; <i class="fa-regular fa-address-card"></i></h2>
+                <br>
+                <p> 
+                    Call us: &nbsp;&nbsp; +&nbsp;&nbsp;&nbsp;4670&nbsp;-&nbsp;783&nbsp;&nbsp;874&nbsp;&nbsp;34
+                    <br>
+                    Email: theyogastudio@lulea.se
+                </p><br>
+            </div>
         </div>
     </section>
     <!-- footer and social media links -->
     <footer>
-        <ul class="social-media">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank"
-                    aria-label="Visit our facebook page (opens i new tab)"><i
-                        class="fa-brands fa-square-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank"
-                    aria-label="Visit our instagram page (opens i new tab)"><i
-                        class="fa-brands fa-square-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank"
-                    aria-label="Visit our twitter page (opens i new tab)"><i
-                        class="fa-brands fa-square-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" aria-label="Visit our youtube (opens i new tab)"><i
-                        class="fa-brands fa-square-youtube"></i></a>
-            </li>
-        </ul>
+        <div class="socialmedia-container">
+            <div id="media-one">
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our facebook page (opens i new tab)">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+            </div>
+            <div id="media-two">
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our instagram page (opens i new tab)">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+            <div id="media-three">              
+                <a href="https://www.twitter.com/" target="_blank" aria-label="Visit our twitter page (opens i new tab)">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </div>
+            <div id="media-four">
+                <a href="https://www.youtube.com/" target="_blank" aria-label="Visit our youtube (opens i new tab)">
+                    <i class="fa-brands fa-square-youtube"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 
     <!-- Font awesome script -->

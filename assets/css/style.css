@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Playfair+Display:wght@400;600;900&display=swap');
 
 body {
     font-family: Playfair Display, Arial, Helvetica, sans-serif;
@@ -15,44 +15,49 @@ body {
 
 /* Logo and navigation */
 header {
-    height: 100px;
     background-color: #cdc2ba;
+    display: flex;
+    padding: 10px 0;
 }
 
 h1 {
-    line-height: 100px;
-    color: #54473c;
+    color: #cdc2ba;
+    margin-right: 25vw;
+}
+
+#logo-container a {
+    text-decoration: none;
 }
 
 #logo {
-    text-decoration: underline;
-    float: left;
+    border-radius: 0 1vw;
+    padding: 0px 35px;
+    background-color: #54473c;
+    font-weight: 600;
     font-size: 4vw;
     margin-left: 30px;
 }
 
-#nav-menu {
-    height: 100px;
+#logo i {
+    font-size: 4vw;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-container {
+    margin-top: 10px;
+    margin-right: 20px;
     font-size: 3vw;
 }
 
-#nav-menu li {
-    font-weight: 900;
-    float: right;
-    list-style: none;
-    margin-right: 30px;
-}
-
-#nav-menu a {
-    text-decoration: none;
+.nav-container a {
     color: #54473c;
+    text-decoration: none;
 }
 
-#nav-menu, #logo {
-    line-height: 100px;
-}
-
-#nav-menu a:hover {
+.nav-container a:hover {
     border-bottom: 2px solid #54473c;
 }
 
@@ -61,44 +66,43 @@ h1 {
 }
 
 /* Main image and text */
-#main-container {
+main {
     position: relative;
 }
-
 #main-image {
     background-image: url(../images/hero-image.jpeg);
     background-repeat: no-repeat;
     background-position: left;
     background-color: #f2efee;
-    height: 600px;
-    width: 100%;
+    height: 100vh;
+    width: 70%;
+    border-radius: 0 0 1vw 0;
 }
 
 #main-text {
     background-color: #54473c;
     border-radius: 0 1vw;
     color: #cdc2ba;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: center;
-    width: 300px;
+    width: 30%;
 
     padding: 40px;
     
-    top: 100px;
-    right: 20px;
+    top: 80px;
+    right: 50px;
 
     position: absolute;
 }
 
 #read-more {
-    font-size: 1.2vw;
+    font-size: 2vw;
     text-align: center;
-    /*width: 110px; */
     
-    bottom: 230px;
-    right: 25px;
+    top: -180px;
+    left: 500px;
 
-    position: absolute;
+    position: relative;
 }
 
 #read-more a {
@@ -113,49 +117,24 @@ h1 {
 /* About section */
 #about-us {
     color: #826f60b5;
+    display: flex;
+    margin-bottom: 20px;
 }
 
-#float-left {
+.about-containers {
+    padding: 30px;
     width: 50%;
-    float: left;
-    padding-top: 30px;
 }
 
-#float-right {
-    width: 50%;
-    float: right;
-    padding-top: 30px;
-}
-
-#about-right {
-    float: left;
-    width: 85%;
-    clear: both;
-    line-height: 20px;
-    margin-bottom: 100px;
-
-    top: 50px;
-    right: 20px;
-
-    position: relative;
-}
-
-#img-left {
-    float: right;
-    background-image: url(../images/left-about.webp);
-    background-repeat: no-repeat;
-    border: 1px solid #d1c9c6;
+div > img {
+    width: 100%;
+    height: 130vh;
+    object-fit: cover;
     border-radius: 1vw;
-    width: 366px;
-    height: 550px;
-
-    top: 100px;
-    right: 150px;
-
-    position: relative;
 }
 
-.about-heading {
+.about {
+    margin-top: 10px;
     font-size: 1vw;
     background-color: #cdc2ba;
     color: #54473c;
@@ -163,14 +142,14 @@ h1 {
     padding: 20px;
 }
 
-.about-heading h2 {
-    line-height: 1;
+.about h2 {
+    line-height: 0.5;
     font-size: 3.3vw;
     padding-bottom: 5px;
     border-bottom: 2px solid #54473c;
 }
 
-.about-heading p {
+.about p {
     font-size: 1.5vw;
     padding-top: 15px;
     font-weight: 400;
@@ -180,19 +159,21 @@ h1 {
 #reviews-header {
     background: #54473c;
     text-align: center;
-    font-size: 2.5vw;
-    color: #cdc2ba;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 10px;
 }
 
-#reviews {
-    clear: both;
+#reviews-header h2 {
+    font-size: 3.3vw;
+    color: #cdc2ba;
 }
 
-#customer1,
-#customer2,
-#customer3 {
+.reviews-container {
+    display: flex;
+    justify-content: center;
+}
+
+.customers {
     text-align: center;
     width: 20%;
     color: #54473c;
@@ -201,43 +182,24 @@ h1 {
     background-color: #cdc2ba;
     padding: 30px 20px;
     border-radius: 1vw;
-}
-
-#customer1 {
-    float: left;
-    margin-left: 5vw;
-}
-
-
-#customer2 {
-    float: right;
-    margin-right: 5vw;
-}
-
-#customer3 {
-    margin: 0 auto;
-}
-
-#reviews h2 {
-    font-weight: 900;
-    font-size: 2.5vw;
+    margin: 0 2vw;
 }
 
 /* Location */
 #location-header {
-    margin-top: 30px;
+    margin: 20px 0;
     padding: 10px;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: #cdc2ba;
     background-color: #54473c;
-    margin-bottom: 30px;
 }
 
-#location {
-    height: 300px;
-    clear: both;
+.location-container {
+    display: flex;
+    justify-content: center;
     color: #54473c;
+    margin-bottom: 20px;
 }
 
 .contact {
@@ -246,8 +208,7 @@ h1 {
     border-bottom: 2px solid #54473c;
 }
 
-#float-left-text,
-#float-right-text {
+.location-text {
     padding: 20px 20px;
     border-radius: 1vw;
     width: 30%;
@@ -255,36 +216,23 @@ h1 {
     font-size: 1.5vw;
     font-weight: 400;
     background-color: #cdc2ba;
-}
-
-#float-left-text {
-    float: left;
-    margin-left: 8vw;
-}
-
-#float-right-text {
-    margin-right: 8vw;
-    float: right;
+    margin: 0 3vw;
 }
 
 /* footer */
-footer {
-    background-color: #54473c;
+.socialmedia-container {
+    background-color: #cdc2ba;
+    display: flex;
+    justify-content: center;
 }
 
-.social-media {
-    text-align: center;
-}
-
-.social-media > li {
-    display: inline-block;
-    padding: 20px 30px;
-}
-
-.social-media i {
+#media-one i,
+#media-two i,
+#media-three i,
+#media-four i {
+    color: #54473c;
     font-size: 4vw;
-    color: #cdc2ba;
-    padding: 5px 5px;
+    padding: 20px 100px;
 }
 
 /* Blog post preview */
@@ -295,9 +243,9 @@ footer {
 }
 
 .blog-preview h2 {
-    color: #826f60;
+    color: #54473c;
     line-height: 50px;
-    border-bottom: 2px solid #d1c9c69d;
+    border-bottom: 2px solid #826f60;
     font-size: 2.4vw;
     font-weight: 900;
 }
@@ -308,7 +256,7 @@ footer {
 
 .blog-preview p {
     font-weight: 400;
-    color: #826f60;
+    color: #54473c;
 }
 
 .blog-preview a {
@@ -317,12 +265,12 @@ footer {
 
 /* Style for blog post pages */
 #blog-post h3 {
-    color: #826f60;
+    color: #54473c;
     font-weight: 600;
 }
 
 #blog-post h1 {
-    color: #826f60;
+    color: #54473c;
     font-size: 2.5vw;
 }
 
@@ -342,17 +290,17 @@ footer {
 
 /* For big screens size from 1920px wide and down */
 @media screen and (max-width: 1920px) {
-    #main-text {
+    /* #main-text {
         width: 450px;
     }
 
     #location {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
 
     #read-more {
         bottom: 50px;
-    }
+    } 
 
     #img-left {
         top: 140px;
@@ -363,12 +311,12 @@ footer {
 
     .about-heading p {
         line-height: 30px;
-    }
+    }  */
 }
 
 /* For extra large screens size from 1650px wide and down */
 @media screen and (max-width: 1650px) {
-    #location {
+    /* #location {
         margin-bottom: 25px;
         height: 315px;
     }
@@ -379,12 +327,12 @@ footer {
 
     #img-left {
         top: 140px;
-    }
+    } */
 }
 
 /* For larger screens size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
-    #main-image {
+    /* #main-image {
         background-size: contain;
     }
 
@@ -399,14 +347,14 @@ footer {
 
     #location {
         margin-bottom: 10px;
-    }
+    } */
 
 }    
 
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #main-image {
+    /* #main-image {
         background-size: contain;
     }
 
@@ -425,12 +373,12 @@ footer {
 
     #location {
         margin-bottom: -20px;
-    }
+    } */
 }
 
 /* For medium screens size from 992px wide and down */
 @media screen and (max-width: 992px) {
-    #read-more {
+    /* #read-more {
         bottom: 290px;
     }
 
@@ -440,12 +388,12 @@ footer {
 
     #location {
         margin-bottom: -60px;
-    }
+    } */
 }
 
 /* For small to medium screens size from 768px wide and down */
 @media screen and (max-width: 768px) {
-    #read-more {
+    /* #read-more {
         bottom: 60px;
         font-size: 2vw;
     }
@@ -484,12 +432,12 @@ footer {
 
     #main-text {
         width: 250px;
-    }
+    } */
 }
 
 /* For small screens size from 576px wide and down */
 @media screen and (max-width: 576px) {
-    #logo {
+    /* #logo {
         font-size: 6.5vw;
         text-decoration: none;
     }
@@ -598,12 +546,12 @@ footer {
 
     #reviews-header {
         margin-bottom: 10px;
-    }
+    } */
 }
 
 /* For extra small screens size from 350px wide and down */
 @media screen and (max-width: 350px) {
-    #img-left {
+    /* #img-left {
         width: 250px;
         top: 120px;
     }
@@ -636,5 +584,5 @@ footer {
 
     #read-more {
         font-size: 3vw;
-    }
+    } */
 }
