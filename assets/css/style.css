@@ -21,11 +21,6 @@ header {
     margin-bottom: 10px;
 }
 
-h1 {
-    color: #cdc2ba;
-    margin-right: 23vw;
-}
-
 #logo-container a {
     text-decoration: none;
 }
@@ -36,6 +31,8 @@ h1 {
     background-color: #54473c;
     font-weight: 900;
     font-size: 5vw;
+    color: #cdc2ba;
+    margin-right: 23vw;
 }
 
 #logo i {
@@ -91,7 +88,7 @@ main {
 
     padding: 40px;
     
-    top: 80px;
+    top: 100px;
     right: 50px;
 
     position: absolute;
@@ -101,8 +98,8 @@ main {
     font-size: 2vw;
     text-align: center;
     
-    top: -180px;
-    left: 510px;
+    bottom: 400px;
+    left: 790px;
 
     position: relative;
 }
@@ -136,7 +133,7 @@ div > img {
 }
 
 .about {
-    margin-top: 10px;
+    margin-top: 80px;
     font-size: 1vw;
     background-color: #cdc2ba;
     color: #54473c;
@@ -187,7 +184,7 @@ div > img {
     margin: 0 2vw;
 }
 
-/* Location */
+/* Contact section */
 #location-header {
     margin: 20px 0;
     padding: 10px;
@@ -213,12 +210,62 @@ div > img {
 .location-text {
     padding: 20px 20px;
     border-radius: 1vw;
-    width: 30%;
-    text-align: center;
+    width: auto;
     font-size: 1.5vw;
     font-weight: 400;
     background-color: #cdc2ba;
-    margin: 0 3vw;
+    margin: 0 1vw;
+}
+
+#fname {
+    margin-top: 10px;
+}
+
+#lname {
+    margin-bottom: 3px;
+}
+
+.center {
+    text-align: center;
+}
+
+.form-style {
+    background-color: #f2efee;
+    border: 1px solid #54473c;
+    padding: 3px 5px;
+}
+
+#select-type {
+    margin-right: 0.5vw;
+}
+
+#pick-date {
+    margin-right: 50px;
+}
+
+#time {
+    margin-bottom: 30px;
+    font-family: playfair display, sans-serif;
+}
+
+#submit {
+    background-color: #54473c;
+    padding: 10px 10px;
+    color: #cdc2ba;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    font-family: playfair display, sans-serif;
+    font-weight: 900;
+}
+
+#submit:hover {
+    font-size: 1.7vw;
+}
+
+#yogatype {
+    font-family: playfair display, sans-serif;
+    background-color: #f2efee;
+    border: 1px solid #54473c;
 }
 
 /* footer */
@@ -238,7 +285,6 @@ div > img {
 }
 
 /* Blog post preview */
-
 .blog-preview {
     font-size: 1.4vw;
     margin: 50px;
@@ -248,8 +294,8 @@ div > img {
     color: #54473c;
     line-height: 50px;
     border-bottom: 2px solid #826f60;
-    font-size: 2.4vw;
-    font-weight: 900;
+    font-size: 2.5vw;
+    font-family: oooh baby, sans-serif;
 }
 
 .blog-preview i {
@@ -272,8 +318,13 @@ div > img {
 }
 
 #blog-post h1 {
-    color: #54473c;
-    font-size: 2.5vw;
+    color: #cdc2ba;
+    font-family: oooh baby, sans-serif;
+    font-size: 2vw;
+    background-color: #54473c;
+    border-radius: 1vw;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 }
 
 /* Gallery */
@@ -290,151 +341,58 @@ div > img {
 
 /* Media queries */
 
-/* For big screens size from 1920px wide and down */
-@media screen and (max-width: 1920px) {
-    /* #main-text {
-        width: 450px;
-    }
-
-    #location {
-        margin-bottom: 50px;
-    }
-
+/* For larger to medium screens size from 1280px wide and down */
+@media screen and (max-width: 1280px) {
     #read-more {
-        bottom: 50px;
-    } 
-
-    #img-left {
-        top: 140px;
-        width: 500px;
-        height: 700px;
-        right: 70px;
+        top: -150px;
+        left: 500px;
     }
 
-    .about-heading p {
-        line-height: 30px;
-    }  */
+    .about {
+        margin-top: 10px;
+    }
 }
 
-/* For extra large screens size from 1650px wide and down */
-@media screen and (max-width: 1650px) {
-    /* #location {
-        margin-bottom: 25px;
-        height: 315px;
-    }
-
+/* For medium screens size from 1024px wide and down */
+@media screen and (max-width: 1024px) {
     #read-more {
-        bottom: 100px;
+        top: -300px;
+        left: 400px;
     }
 
-    #img-left {
-        top: 140px;
-    } */
-}
-
-/* For larger screens size from 1440px wide and down */
-@media screen and (max-width: 1440px) {
-    /* #main-image {
-        background-size: contain;
+    div > img {
+        height: 100vh;
     }
 
-    #read-more {
-        bottom: 120px;
-        right: 20px;
+    .about {
+        margin-top: 0px;
     }
-
-    .about-heading h2 {
-        font-size: 3vw;
-    }
-
-    #location {
-        margin-bottom: 10px;
-    } */
-
-}    
-
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    /* #main-image {
-        background-size: contain;
-    }
-
-    #read-more {
-        bottom: 220px;
-        right: 20px;
-    }
-
-    #photos {
-        column-count: 3;
-    }
-
-    #img-left {
-        right: -30px;
-    }
-
-    #location {
-        margin-bottom: -20px;
-    } */
-}
-
-/* For medium screens size from 992px wide and down */
-@media screen and (max-width: 992px) {
-    /* #read-more {
-        bottom: 290px;
-    }
-
-    #img-left {
-        right: -50px;
-    }
-
-    #location {
-        margin-bottom: -60px;
-    } */
 }
 
 /* For small to medium screens size from 768px wide and down */
 @media screen and (max-width: 768px) {
-    /* #read-more {
-        bottom: 60px;
-        font-size: 2vw;
+    #logo {
+        margin-right: 20vw;
     }
 
-    #img-left {
-        right: -150px;
-        top: 50px;
-    }
-
-    #photos {
-        column-count: 2;
-    }
-
-    #location {
-        margin-bottom: -80px;
-    }
-
-    #float-right {
-        padding-top: 0;
-        line-height: 0;
-    }
-
-    #about-right {
-        width: 100%;
-        right: 50px;
-    }
-
-    .about-heading p {
-        line-height: 20px;
-        font-size: 2.5vw;
-    }
-
-    #main-image {
-        height: 350px;
+    div > img {
+        border-radius: 0vw;
+        margin-top: 30px;
     }
 
     #main-text {
-        width: 250px;
-    } */
+        top: 40px;
+        right: 0px;
+    }
+
+    #read-more {
+        top: -200px;
+        left: 325px;
+    }
+
+    .about h2 {
+        font-size: 3.1vw;
+    }
 }
 
 /* For small screens size from 576px wide and down */
