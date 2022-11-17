@@ -23,7 +23,7 @@ header {
 
 h1 {
     color: #cdc2ba;
-    margin-right: 20vw;
+    margin-right: 23vw;
 }
 
 #logo-container a {
@@ -40,6 +40,7 @@ h1 {
 
 #logo i {
     font-size: 4vw;
+    text-shadow: 2px 2px #826f60;
 }
 
 nav {
@@ -47,22 +48,23 @@ nav {
 }
 
 .nav-container {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-right: 20px;
-    font-size: 3vw;
+    font-size: 2.3vw;
 }
 
 .nav-container a {
     color: #54473c;
     text-decoration: none;
+    font-weight: 900;
 }
 
 .nav-container a:hover {
-    border-bottom: 2px solid #54473c;
+    font-size: 2.5vw;
 }
 
 .current {
-    border-bottom: 2px solid #54473c;
+    border-bottom: 2px solid #826f60;
 }
 
 /* Main image and text */
@@ -100,7 +102,7 @@ main {
     text-align: center;
     
     top: -180px;
-    left: 500px;
+    left: 510px;
 
     position: relative;
 }
@@ -221,7 +223,7 @@ div > img {
 
 /* footer */
 .socialmedia-container {
-    background-color: #cdc2ba;
+    background-color: #54473c;
     display: flex;
     justify-content: center;
 }
@@ -230,7 +232,7 @@ div > img {
 #media-two i,
 #media-three i,
 #media-four i {
-    color: #54473c;
+    color: #cdc2ba;
     font-size: 4vw;
     padding: 20px 100px;
 }
