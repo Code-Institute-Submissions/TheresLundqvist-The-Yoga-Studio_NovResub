@@ -125,6 +125,26 @@
         <h2>Start Your Journey Today! &nbsp; <i class="fa-solid fa-rocket"></i></h2>
         </div>
         <div class="location-container">
+            <div class="location-text">
+                <h2 class="contact" class="center" id="book">Book a Session &nbsp; <i class="fa-regular fa-square-check"></i></h2>
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" class="form-style" required><br>
+                    <label for="lname">Last name:&nbsp;</label>
+                    <input type="text" id="lname" name="lname" class="form-style"><br>
+                    <label for="yogatype" id="select-type">Select yoga type:</label>
+                    <select id="yogatype" name="yogatype" class="form-style" required>
+                        <option value="bikram">Bikram Yoga</option>
+                        <option value="yin">Yin Yoga</option>
+                        <option value="ashtanga">Ashtanga Yoga</option>
+                    </select><br>
+                    <label for="time" id="pick-date">Pick a date:</label>
+                    <input type="date" id="time" name="time" value="2022-11-25"
+                    min="2022-11-25" max="2023-01-25" class="form-style" required>
+                    <br>
+                    <input type="submit" id="submit" value="Book session">
+                </form>
+            </div>
             <div class="location-text" class="center">
                 <h2 class="contact">Come join us at &nbsp; <i class="fa-solid fa-location-dot"></i></h2>
                 <br>
@@ -134,35 +154,13 @@
                     954 42 Luleå
                 </p>
             </div>
-            <div class="location-container">
-                <div class="location-text">
-                    <h2 class="contact" class="center" id="book">Book a Session &nbsp; <i class="fa-regular fa-square-check"></i></h2>
-                    <form action="https://formdump.codeinstitute.net/" method="POST">
-                        <label for="fname">First name:</label>
-                        <input type="text" id="fname" name="fname" class="form-style" required><br>
-                        <label for="lname">Last name:&nbsp;</label>
-                        <input type="text" id="lname" name="lname" class="form-style"><br>
-                        <label for="yogatype" id="select-type">Select yoga type:</label>
-                        <select id="yogatype" name="yogatype" class="form-style" required>
-                            <option value="bikram">Bikram Yoga</option>
-                            <option value="yin">Yin Yoga</option>
-                            <option value="ashtanga">Ashtanga Yoga</option>
-                        </select><br>
-                        <label for="time" id="pick-date">Pick a date:</label>
-                        <input type="date" id="time" name="time" value="2022-11-25"
-                        min="2022-11-25" max="2023-01-25" class="form-style" required>
-                        <br>
-                        <input type="submit" id="submit" value="Book session">
-                    </form>
-                </div>
-              </div>
             <div class="location-text" class="center">
                 <h2 class="contact">Contact us &nbsp; <i class="fa-regular fa-address-card"></i></h2>
                 <br>
                 <p> 
-                    Call us: &nbsp;&nbsp; +&nbsp;&nbsp;&nbsp;4670&nbsp;-&nbsp;783&nbsp;&nbsp;874&nbsp;&nbsp;34
+                    <u>Call us:</u>&nbsp;&nbsp;+&nbsp;&nbsp;4670&nbsp;-&nbsp;783&nbsp;&nbsp;874&nbsp;&nbsp;34
                     <br>
-                    Email: theyogastudio@lulea.se
+                    <u>Email:</u>&nbsp;theyogastudio@lulea.se
                 </p><br>
             </div>
         </div>
