@@ -66,6 +66,7 @@ nav {
 main {
     position: relative;
 }
+
 #main-image {
     background-image: url(../images/hero-image.jpeg);
     background-repeat: no-repeat;
@@ -93,7 +94,7 @@ main {
 #read-more {
     font-size: 3vw;
     text-align: center;
-    bottom: 37em;
+    bottom: 5em;
     right: 2.5em;
     position: absolute;
 }
@@ -119,7 +120,7 @@ main {
 }
 
 #image-box {
-    width: 330px;
+    width: 320px;
     height: 500px;
     overflow: hidden;
     margin-left: 0.3em;
@@ -346,18 +347,174 @@ div > img {
 }
 
 /* Media queries */
+/* For small screens from 350px wide */
+@media screen and (min-width: 350px) {
+    #image-box {
+        width: 325px;
+    }
+}
 
-/* For larger to medium screens size from 850px wide and down */
+/* For small screens from 450px wide */
+@media screen and (min-width: 450px) {
+    #image-box {
+        width: 425px;
+        height: 650px;
+    }
+
+    .customers {
+        width: 88%;
+    }
+
+    .location-text {
+        margin: 0.3em 0.3em;
+    }
+}
+
+/* For small screens from 550px wide */
+@media screen and (min-width: 550px) {
+    #image-box {
+        width: 520px;
+        height: 780px;
+    }
+
+    .customers {
+        width: 90%;
+    }
+}
+
+/* For small screens from 750px wide */
+@media screen and (min-width: 750px) {
+    #image-box {
+        width: 720px;
+        height: 1100px;
+    }
+
+    .customers {
+        width: 93%;
+    }
+}
+
+
+/* For small to medium screens up to size 850px wide */
 @media screen and (min-width: 850px) {
     .nav-container {
-        font-size: 2.3vw;
+        font-size: 1.5em;
         margin: 2em 2em 0;
     }
 
-    header,
-    .location-container {
+    #main-image {
+        width: 98%;
+        margin: 0.3em;
+    }
+}
+
+/* For small to medium screens up to size 1200px wide */
+@media screen and (min-width: 1000px) {
+    #image-box {
+        width: 825px;
+        height: 1300px;
+    }
+
+    .nav-container {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    #main-text {
+        background-color: #54473cd9;
+        top: 1em;
+        right: 0.5em;
+    }
+
+    #main-image {
+        border-radius: 2vw;
+        width: 99%;
+    }
+
+    #read-more a {
+        border-radius: 1vw;
+    }
+
+    #read-more {
+        bottom: 6em;
+        right: 1em;
+    }
+
+    .about p {
+        font-size: 2vw;
+    }
+
+    .about h2 {
+        font-size: 4vw;
+    }
+
+    .about {
+        border-radius: 3vw;
+    }
+
+    .about-text {
+        padding: 20px 30px;
+    }
+
+    #image-box {
+        width: 970px;
+        height: 1500px;
+    }
+
+    .customers {
+        font-size: 2vw;
+        width: 95%;
+        border-radius: 2vw;
+    }
+
+    .reviews-container {
         flex-direction: row;
     }
+
+    #reviews-header h2 {
+        font-size: 4vw;
+    }
+
+    #location-header {
+        font-size: 2.5vw;
+        margin: 0.2em;
+    }
+
+    .location-text {
+        margin: 0.2em;
+        border-radius: 2vw;
+        font-size: 2.5vw;
+    }
+
+    #fname, 
+    #lname {
+        border-radius: 0.5vw;
+    }
+
+    #select-type,
+    #yogatype {
+        border-radius: 0.5vw;
+        font-size: 1em;
+    }
+
+    .contact {
+        font-size: 3.5vw;
+    }
+}
+
+/* For small to medium screens up to size 1200px wide */
+@media screen and (min-width: 1200px) {
+
+    .about-containers {
+        display: flex;
+    }
+
+    header,
+    .location-container,
+    .about-containers {
+        flex-direction: row;
+    }
+
 }
 
 
