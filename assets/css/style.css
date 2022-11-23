@@ -249,6 +249,7 @@ div > img {
     margin-bottom: 0.6em;
     font-family: playfair display, sans-serif;
     border-radius: 1vw;
+    font-size: 3.5vw;
 }
 
 #submit {
@@ -270,6 +271,7 @@ div > img {
     font-family: playfair display, sans-serif;
     background-color: #f2efee;
     border: 1px solid #54473c;
+    font-size: 3.3vw;
 }
 
 /* footer */
