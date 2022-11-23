@@ -25,16 +25,16 @@ header {
 }
 
 #logo {
-    border-radius: 0 1vw 1vw 0;
-    padding: 0px 35px 10px 35px;
+    padding: 10px 35px 10px 35px;
     background-color: #54473c;
     font-weight: 900;
-    font-size: 5vw;
+    font-size: 7vw;
     color: #cdc2ba;
+    text-align: center;
 }
 
 #logo i {
-    font-size: 4vw;
+    font-size: 6vw;
     text-shadow: 2px 2px #826f60;
 }
 
@@ -77,25 +77,22 @@ main {
 
 #main-text {
     background-color: #54473c;
-    border-radius: 0 1vw;
+    border-radius: 0 3vw;
     color: #cdc2ba;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
-    width: 30%;
-
-    padding: 40px;
-    
-    top: 100px;
-    right: 50px;
-
+    width: 40%;
+    padding: 20px;
+    top: 3em;
+    right: 2em;
     position: absolute;
 }
 
 #read-more {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
-    bottom: 3em;
-    right: 4em;
+    bottom: 37em;
+    right: 2.5em;
     position: absolute;
 }
 
@@ -112,6 +109,7 @@ main {
 #about-us {
     color: #826f60b5;
     display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
@@ -335,6 +333,7 @@ div > img {
 }
 
 /* Media queries */
+
 /* For larger to medium screens size from 850px wide and down */
 @media screen and (min-width: 850px) {
     .nav-container {
@@ -349,191 +348,3 @@ div > img {
 }
 
 
-/* For larger to medium screens size from 1280px wide and down */
-@media screen and (max-width: 1280px) {
-
-    .about {
-        margin-top: 10px;
-    }
-}
-
-/* For medium screens size from 1024px wide and down */
-@media screen and (max-width: 1024px) {
-    div > img {
-        height: 100vh;
-    }
-
-    .about {
-        margin-top: 0px;
-    }
-}
-
-/* For small to medium screens size from 768px wide and down */
-@media screen and (max-width: 768px) {
-
-    div > img {
-        border-radius: 0vw;
-        margin-top: 30px;
-    }
-
-    #main-text {
-        top: 40px;
-        right: 0px;
-    }
-
-    .about h2 {
-        font-size: 3.1vw;
-    }
-}
-
-/* For small screens size from 576px wide and down */
-@media screen and (max-width: 576px) {
-    /* #logo {
-        font-size: 6.5vw;
-        text-decoration: none;
-    }
-
-    #nav-menu li {
-        font-weight: 400;
-        font-size: 3.5vw;
-        margin-right: 10px;
-    }
-
-    #main-image {
-        height: 260px;
-    }
-
-    #main-text {
-        padding: 20px;
-        font-size: 2.5vw;
-        right: 25px;
-        top: 20px;
-        width: 250px;
-    }
-    
-    #read-more {
-        top: 110px;
-        font-size: 2.5vw;
-        top: 150px;
-        right: 20px;
-    }
-
-    #about-right {
-        right: 10px;
-        z-index: 2;
-        width: 95%;
-        line-height: 10px;
-    }
-
-    .about-heading h2 {
-        font-size: 3vw;
-    }
-
-    .about-heading p {
-        font-size: 2.2vw;
-    }
-
-    #img-left {
-        left: 90px;
-        top: 17px;
-        margin-bottom: 50px;
-        width: 350px;
-    }
-
-    .blog-preview h2 {
-        font-size: 2vw;
-    }
-
-    #photos {
-        column-count: 1;
-    }
-
-    #customer1 {
-        margin-left: 0.5vw;
-    }
-
-    #customer2 {
-        margin-right: 0.5vw;
-    }
-
-    #location-header {
-        font-size: 2.5vw;
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
-
-    .contact {
-        font-size: 3vw;
-    }
-
-    #float-left-text,
-    #float-right-text {
-        font-size: 2.2vw;
-    }
-
-    #location {
-        margin-bottom: -120px;
-    }
-
-    #customer2,
-    #customer1,
-    #customer3 {
-        width: 30%;
-    }
-
-    #customer1 {
-        margin-left: 1vw;
-        padding: 3px 3px 15px 3px;
-    }
-
-    #customer2 {
-        margin-right: 1vw;
-        padding: 3px 3px 15px 3px;
-    }
-
-    #customer3 {
-        padding: 3px 3px;
-    }
-
-    #reviews-header {
-        margin-bottom: 10px;
-    } */
-}
-
-/* For extra small screens size from 350px wide and down */
-@media screen and (max-width: 350px) {
-    /* #img-left {
-        width: 250px;
-        top: 120px;
-    }
-
-    .about-heading p {
-        font-size: 3vw;
-    }
-
-    #customer1,
-    #customer2,
-    #customer3 {
-        font-size: 2vw;
-    }
-
-    #customer2 {
-        padding: 3px 3px 6px 3px;
-    }
-
-    #customer3 {
-        padding-bottom: 5px;
-    }
-
-    #location {
-        margin-bottom: -170px;
-    }
-
-    #main-text {
-        font-size: 4.5vw;
-    }
-
-    #read-more {
-        font-size: 3vw;
-    } */
-}
