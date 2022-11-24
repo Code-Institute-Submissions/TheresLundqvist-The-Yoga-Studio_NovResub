@@ -45,7 +45,7 @@ nav {
 }
 
 .nav-container {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .nav-container a {
@@ -71,11 +71,9 @@ main {
     background-image: url(../images/hero-image.jpeg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-color: #f2efee;
-    height: 100vh;
-    width: 97%;
-    margin: 0 0.3em;
-    border-radius: 5vw;
+    height: 70vh;
 }
 
 #main-text {
@@ -86,16 +84,16 @@ main {
     text-align: center;
     width: 40%;
     padding: 20px;
-    top: 3em;
-    right: 2em;
+    top: 1em;
+    right: 1em;
     position: absolute;
 }
 
 #read-more {
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
-    bottom: 5em;
-    right: 2.5em;
+    bottom: 1em;
+    right: 1em;
     position: absolute;
 }
 
@@ -120,15 +118,20 @@ main {
 }
 
 #image-box {
-    width: 320px;
-    height: 500px;
-    overflow: hidden;
-    margin-left: 0.3em;
+    text-align: center;
+    margin: 0.6em 0.3em;
     border-radius: 5vw;
 }
 
-div > img {
+#image-box img {
+    border-radius: 5vw;
+    object-fit: cover;
+    max-width: 100%;
     height: 100%;
+}
+
+div > img {
+    margin: 0 auto;
 }
 
 .about {
@@ -150,7 +153,6 @@ div > img {
 }
 
 .about p {
-    font-size: 3.5vw;
     padding-top: 10px;
     font-weight: 400;
 }
@@ -176,9 +178,7 @@ div > img {
 
 .customers {
     text-align: center;
-    width: 85%;
     color: #54473c;
-    font-size: 3.5vw;
     font-weight: 400;
     background-color: #cdc2ba;
     padding: 20px;
@@ -206,14 +206,13 @@ div > img {
 
 .contact {
     color: #54473c;
-    font-size: 4.5vw;
 }
 
 .location-text {
+    text-align: center;
     padding: 20px;
     border-radius: 5vw;
     width: auto;
-    font-size: 3.5vw;
     font-weight: 400;
     background-color: #cdc2ba;
     margin: 0.3em 0.6em;
@@ -287,22 +286,20 @@ div > img {
 #media-three i,
 #media-four i {
     color: #cdc2ba;
-    font-size: 5vw;
     padding: 0.5em 1em;
 }
 
 /* Blog post preview */
 .blog-preview {
-    font-size: 1.4vw;
-    margin: 50px;
+    margin: 2em;
 }
 
 .blog-preview h2 {
     color: #54473c;
     line-height: 50px;
     border-bottom: 2px solid #826f60;
-    font-size: 2.5vw;
     font-family: oooh baby, sans-serif;
+    margin-top: 2em;
 }
 
 .blog-preview i {
@@ -327,7 +324,6 @@ div > img {
 #blog-post h1 {
     color: #cdc2ba;
     font-family: oooh baby, sans-serif;
-    font-size: 2vw;
     background-color: #54473c;
     border-radius: 1vw;
     padding: 10px 10px;
@@ -338,7 +334,7 @@ div > img {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 1;
     column-gap: 0;
 }
 
@@ -346,21 +342,8 @@ div > img {
     width: 100%;
 }
 
-/* Media queries */
-/* For small screens from 350px wide */
-@media screen and (min-width: 350px) {
-    #image-box {
-        width: 325px;
-    }
-}
-
 /* For small screens from 450px wide */
 @media screen and (min-width: 450px) {
-    #image-box {
-        width: 425px;
-        height: 650px;
-    }
-
     .customers {
         width: 88%;
     }
@@ -368,15 +351,14 @@ div > img {
     .location-text {
         margin: 0.3em 0.3em;
     }
+
+    #photos {
+        column-count: 2;
+    }
 }
 
 /* For small screens from 550px wide */
 @media screen and (min-width: 550px) {
-    #image-box {
-        width: 520px;
-        height: 780px;
-    }
-
     .customers {
         width: 90%;
     }
@@ -384,11 +366,6 @@ div > img {
 
 /* For small screens from 750px wide */
 @media screen and (min-width: 750px) {
-    #image-box {
-        width: 720px;
-        height: 1100px;
-    }
-
     .customers {
         width: 93%;
     }
@@ -397,47 +374,54 @@ div > img {
 
 /* For small to medium screens up to size 850px wide */
 @media screen and (min-width: 850px) {
+    .blog-preview h2 {
+        font-size: 4vw;
+    }
+
+    .blog-preview p {
+        font-size: 2vw;
+    }
+
     .nav-container {
         font-size: 1.5em;
         margin: 2em 2em 0;
     }
 
     #main-image {
-        width: 98%;
+        height: 90vh;
         margin: 0.3em;
+    }
+
+    #photos {
+        column-count: 3;
     }
 }
 
 /* For small to medium screens up to size 1200px wide */
 @media screen and (min-width: 1000px) {
-    #image-box {
-        width: 825px;
-        height: 1300px;
-    }
-
     .nav-container {
         font-size: 2em;
         margin: 0;
     }
 
     #main-text {
-        background-color: #54473cd9;
-        top: 1em;
-        right: 0.5em;
+        width: 60%;
+        right: 3em;
+        font-size: 2.5vw;
     }
 
     #main-image {
+        height: 100vh;
         border-radius: 2vw;
-        width: 99%;
     }
 
     #read-more a {
         border-radius: 1vw;
+        font-size: 3vw;
     }
 
     #read-more {
-        bottom: 6em;
-        right: 1em;
+        right: 3em;
     }
 
     .about p {
@@ -445,7 +429,7 @@ div > img {
     }
 
     .about h2 {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     .about {
@@ -454,11 +438,6 @@ div > img {
 
     .about-text {
         padding: 20px 30px;
-    }
-
-    #image-box {
-        width: 970px;
-        height: 1500px;
     }
 
     .customers {
@@ -481,9 +460,18 @@ div > img {
     }
 
     .location-text {
+        text-align: unset;
         margin: 0.2em;
         border-radius: 2vw;
         font-size: 2.5vw;
+    }
+
+    .blog-preview h2 {
+        font-size: 2em;
+    }
+
+    .blog-preview p {
+        font-size: 1em;
     }
 
     #fname, 
@@ -500,21 +488,26 @@ div > img {
     .contact {
         font-size: 3.5vw;
     }
+
+    #photos {
+        column-count: 4;
+    }
 }
 
 /* For small to medium screens up to size 1200px wide */
 @media screen and (min-width: 1200px) {
+    .about {
+        width: 33%;
+    }
 
     .about-containers {
         display: flex;
     }
 
-    header,
     .location-container,
     .about-containers {
         flex-direction: row;
+        align-items: stretch;
     }
 
 }
-
-
