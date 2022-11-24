@@ -8,7 +8,7 @@ well taken care of - regardless of age or disabilities.
 Users of the webpage will be able to find inspiration through the studio gallery, blog posts from our teachers, and  
 reading customer reviews. Users will easily find location, contact and booking information at the bottom of page in  
 form of address, booking form, contact info and clickable social media links. This website is to increase the awerness  
-of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives near the studio location. 
+of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives near the studio's location. 
 
 <img width="1000" src="documentation/responsive.png">
 
@@ -102,8 +102,8 @@ of The Yoga studio´s existence and for anyone looking to start their yoga journ
 
 ## **Bugs**
 
-* When I deployed my project to Github pages I discovered my project was broken, the links to the other files (CSS, blog and gallery) dit not work.  
-I discovered this was because I had used absolute file paths in my code. When I removed the / from the start of the path the problem was fixed.
+* When I deployed my project to Github pages I discovered my project was broken, the links to the other files (CSS, blog and gallery) dit not work. I discovered this was because I had used absolute file paths in my code.  
+When I removed the / from the start of the path the problem was fixed.
 
 ---
 
@@ -112,8 +112,7 @@ I discovered this was because I had used absolute file paths in my code. When I 
 * HTML  
   
 Four errors occured for the blog page since I used h1-headings on three occations i blog.html, when I replaced them the errors disapeared. One warning in Gallery page due to section without heading,  
-solved that by adding a div element and removing section. From the home page one error remains due to a bug. See *unfixed bug section*.   
-The errors were fixed and all pages besides the home page passed validation afterwards.
+solved that by adding a div element and removing section. From the home page one error remains due to a bug. See *unfixed bug section*. The errors were fixed and all pages besides the home page passed validation afterwards.
   
 **Home page**  
   
