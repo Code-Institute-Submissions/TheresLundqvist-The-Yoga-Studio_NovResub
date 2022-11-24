@@ -1,68 +1,67 @@
 # **The Yoga Studio**
 
-The Yoga Studio website is a inspirational page for a yoga studio based in a small town in Sweden.  
+The Yoga Studio website is an inspirational page for a yoga studio based in a small town in Sweden.  
 The yoga studio is a warm, serene and hospitable studio with a clear mission - to make everyone feel welcome and well taken care of - regardless of age or disabilities.   
 
 
 
-Users of the webpage will be able to find inspiration through the studio gallery, blogposts from our teachers and reading the customer reviews.   
-Users will easily find location and contact information at the bottom of page in form of address, contact info and clickable social media links.  
-This website is to increase the awerness of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives in the area of the studios location. 
+Users of the webpage will be able to find inspiration through the studio gallery, blog posts from our teachers, and reading customer reviews.   
+Users will easily find location, contact and booking information at the bottom of page in form of address, booking form, contact info and clickable social media links.  
+This website is to increase the awerness of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives near the studio location. 
 
-<img width="1000" src="documentation/screenshot-responsive.png">
+<img width="1000" src="documentation/responsive.png">
 
 ---
 ## **Features** 
 
 ### **Navigation**  
 
- * The top of the page shows the studio name, a clickable link that takes user back to homepage.
- * To the right of the navigation user can find links to home, blog and gallery pages.
- * The navigation has a dark font and a lighter background for good contrast.
- * The studio name has a bigger font than the navigation bar to make a clear statement of the name of studio and webpage.
+ * The top of the page shows the studio name, a clickable link that takes the user back to the homepage.
+ * To the right of the navigation user can find links to the home, blog and gallery pages.
+ * The navigation has a light font and a darker background for good contrast.
+ * The studio name has a bigger font than the navigation bar to clearly state the studio and webpage's name.
 
  <img width="1000" src="documentation/header.png">
 
 ### **The main section**
 
-* The main section gives users a glimt of the studio through a large photo of two women training in serene enviroment.
-* The main text is a short introduction of the yoga studio.
-* Under the intriguing main text is a clickable read more button that takes users to about section further down the page.
-* The previous colors from the header is switched up in the main section with headers background as font color and vice versa. 
+* The main section gives users a glimpse of the studio through a large photo of two women training in a serene environment.
+* The main text is a short introduction to the yoga studio.
+* Under the intriguing main text is a clickable read more button that takes users to about section further down the page. 
 
 <img width="1000" src="documentation/main.png">
 
 ### **The about section**
 * The about section gives the users more information about the studio and location.
-* This section provides user with information about the studio, what the goal of the studio is and and whom the yoga classes are for - everybody! 
-* The same woman from the main section accours in this sections again to maintain a common tread.
-* The colors from the header recur in this section.
+* This section provides the user with information about the studio, what the goal of the studio is and who the yoga classes are for - everybody! 
+* The same woman from the main section occurs in this section to maintain a common thread.
 
-<img width="1000" src="documentation/about-section.png">
+<img width="1000" src="documentation/about.png">
 
 
 ### **Customer reviews**
 
-* The customer reviews aim to increase the users need for a visit to the studio by showing three happy clients reviews.
-* The goal is to reenforce the user that the studio is worth a visit.
-* The colors from main section recurs here to create a good balance between sections.
+* The customer reviews aim to increase the user's need for a visit to the studio by showing three happy clients' reviews.
+* The goal is to reinforce to the user that the studio is worth a visit.
+* The colors from the main section recur here to create a good balance between sections.
 
-<img width="1000" src="documentation/reviews.png">
+<img width="1000" src="documentation/review.png">
 
 ### **The contact section**
 
-* The contact section provides the user with location to join The Yoga Studio.
-* This section also gives user contact information to call or email.
-* The page matches the colors from about section with same box style.
+* The contact section provides the user with a location to join The Yoga Studio.
+* This section also gives the user contact information to call or email.
+* The user will have the option to book a session at the studio through the booking form.
+* The page matches the colors from the about section with the same box style.
 
 <img width="1000" src="documentation/contact.png">
 
 ### **The footer section**
 * The footer section is linked with all social media platforms the studio is connected to.
-* The page links to facebook, instagram, twitter and youtube and opens i new tabs when clicked.
+* The page links to Facebook, Instagram, Twitter and Youtube and a new tab opens when clicked.
 * The colors from the header at the top, matches the colors in this section at the bottom of page - to create a nice frame to page.
 
-<img width="1000" src="documentation/social-media.png">
+<img width="1000" src="documentation/footer.png">
 
 ## **Blog page**
 
@@ -77,9 +76,9 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 ### **Full blog post pages**
 
-* The full blog post pages is color indentical to its parent blog page - the blog preview page.
+* The full blog post pages matches the webpage with colors. 
 
-<img width="1000" src="documentation/full-blog-post.png">
+<img width="1000" src="documentation/blog-page.png">
 
 ## **Gallery**
 
@@ -93,6 +92,8 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 ## **Testing**
 
 * I tested that the page works in diffrent browsers such as Chrome, firefox and Microsoft Edge.
+
+
 * I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 * I confirmed that the header, navigation, main, about us, reviews, footer, gallery and blog pages text are all readable and easy to understand.
 * I have confirmed that the links between diffrent pages work and are accessible.
@@ -101,9 +102,6 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 * When I deployed my project to Github pages I discovered my project was broken, the links to the other files (CSS, blog and gallery) dit not work.
 * I discovered this was because I had used aboulte file paths such as this in my code
-
-![bug, wrong filepath](documentation/filepath.png)
-
 * When I removed the / from the start of the path the problem was fixed.
 
 ---
@@ -111,19 +109,59 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 ## **Validator testing**
 
 * HTML
-3 errors occured since I used h1-headings on three occations i blog.html, when replaced code passed.
+Four errors occured for blog page since I used h1-headings on three occations i blog.html, when replaced those errors was resolved.  
+One warning in Gallery page due to section without heading, solved that by adding a div element and removing section. 
+From the home page one error remains due to a bug. See *unfixed bug section*.   
+The errors were fixed and all pages besides the home page passed validation afterwards.
+  
+**Home page**  
+  
+<img width="500" src="documentation/html-homepage.png">
+
+
+**Blog page**  
+  
+<img width="500" src="documentation/html-blog.png">
+
+**Blogpost one**  
+  
+<img width="500" src="documentation/html-blog1.png">
+
+**Blogpost two**  
+  
+<img width="500" src="documentation/html-blog2.png">
+
+**Blogpost three**  
+  
+<img width="500" src="documentation/html-blog3.png">
+
+**Gallery page**   
+
+<img width="500" src="documentation/html-gallery.png">
+
 * CSS
-No errors were found when passing through the official (Jigsaw) validator.
+No errors were found when passing through the official (Jigsaw) validator.  
+
+<img width="500" src="documentation/css-validator.png">
+
 * Accessability
 I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-<img width="1000" src="documentation/lighthouse-score.png">
+<img width="500" src="documentation/lighthouse.png">
 
 ---
 
 ### **Unfixed Bugs**
 
-* No unfixed bugs.
+* One remaining bug due to the option element "Element option without attribute label must not be empty."  
+I've tried to apply a label for each option and remove text in between - same error. Tried to removing space between text - same error.  
+Seems to be a bug.  
+
+<img width="500" src="documentation/html-validator-error.png"> 
+
+<img width="500" src="documentation/error-option.png">  
+
+<img width="500" src="documentation/html-option.png">
 
 ---
 
