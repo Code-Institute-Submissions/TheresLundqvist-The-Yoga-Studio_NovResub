@@ -1,13 +1,14 @@
 # **The Yoga Studio**
 
 The Yoga Studio website is an inspirational page for a yoga studio based in a small town in Sweden.  
-The yoga studio is a warm, serene and hospitable studio with a clear mission - to make everyone feel welcome and well taken care of - regardless of age or disabilities.   
-
-
-
-Users of the webpage will be able to find inspiration through the studio gallery, blog posts from our teachers, and reading customer reviews.   
-Users will easily find location, contact and booking information at the bottom of page in form of address, booking form, contact info and clickable social media links.  
-This website is to increase the awerness of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives near the studio location. 
+The yoga studio is a warm, serene and hospitable studio with a clear mission - to make everyone feel welcome and  
+well taken care of - regardless of age or disabilities.   
+  
+  
+Users of the webpage will be able to find inspiration through the studio gallery, blog posts from our teachers, and  
+reading customer reviews. Users will easily find location, contact and booking information at the bottom of page in  
+form of address, booking form, contact info and clickable social media links. This website is to increase the awerness  
+of The Yoga studio´s existence and for anyone looking to start their yoga journey and lives near the studio location. 
 
 <img width="1000" src="documentation/responsive.png">
 
@@ -23,7 +24,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
  <img width="1000" src="documentation/header.png">
 
-### **The main section**
+### **Main section**
 
 * The main section gives users a glimpse of the studio through a large photo of two women training in a serene environment.
 * The main text is a short introduction to the yoga studio.
@@ -31,7 +32,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 <img width="1000" src="documentation/main.png">
 
-### **The about section**
+### **About section**
 * The about section gives the users more information about the studio and location.
 * This section provides the user with information about the studio, what the goal of the studio is and who the yoga classes are for - everybody! 
 * The same woman from the main section occurs in this section to maintain a common thread.
@@ -47,7 +48,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 <img width="1000" src="documentation/review.png">
 
-### **The contact section**
+### **Contact section**
 
 * The contact section provides the user with a location to join The Yoga Studio.
 * This section also gives the user contact information to call or email.
@@ -56,7 +57,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 <img width="1000" src="documentation/contact.png">
 
-### **The footer section**
+### **Footer section**
 * The footer section is linked with all social media platforms the studio is connected to.
 * The page links to Facebook, Instagram, Twitter and Youtube and a new tab opens when clicked.
 * The colors from the header at the top, matches the colors in this section at the bottom of page - to create a nice frame to page.
@@ -101,18 +102,17 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 ## **Bugs**
 
-* When I deployed my project to Github pages I discovered my project was broken, the links to the other files (CSS, blog and gallery) dit not work.
-* I discovered this was because I had used aboulte file paths such as this in my code
-* When I removed the / from the start of the path the problem was fixed.
+* When I deployed my project to Github pages I discovered my project was broken, the links to the other files (CSS, blog and gallery) dit not work.  
+I discovered this was because I had used absolute file paths in my code. When I removed the / from the start of the path the problem was fixed.
 
 ---
 
 ## **Validator testing**
 
-* HTML
-Four errors occured for blog page since I used h1-headings on three occations i blog.html, when replaced those errors was resolved.  
-One warning in Gallery page due to section without heading, solved that by adding a div element and removing section. 
-From the home page one error remains due to a bug. See *unfixed bug section*.   
+* HTML  
+  
+Four errors occured for the blog page since I used h1-headings on three occations i blog.html, when I replaced them the errors disapeared. One warning in Gallery page due to section without heading,  
+solved that by adding a div element and removing section. From the home page one error remains due to a bug. See *unfixed bug section*.   
 The errors were fixed and all pages besides the home page passed validation afterwards.
   
 **Home page**  
@@ -155,8 +155,7 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 ### **Unfixed Bugs**
 
 * One remaining bug due to the option element "Element option without attribute label must not be empty."  
-I've tried to apply a label for each option and remove text in between - same error. Tried to removing space between text - same error.  
-Seems to be a bug.  
+I've tried to apply a label for each option and remove text in between - same error. Tried to removing space between text - same error. Seems to be a bug.  
 
 <img width="500" src="documentation/html-validator-error.png"> 
 
