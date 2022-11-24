@@ -90,9 +90,9 @@ main {
 }
 
 #read-more {
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
-    bottom: 1em;
+    bottom: 2em;
     right: 1em;
     position: absolute;
 }
@@ -186,6 +186,10 @@ div > img {
     margin: 0.3em;
 }
 
+.reviewer {
+    font-size: 5vw;
+}
+
 /* Contact section */
 #location-header {
     margin: 0.3em 0;
@@ -206,6 +210,7 @@ div > img {
 
 .contact {
     color: #54473c;
+    font-size: 5vw;
 }
 
 .location-text {
@@ -230,26 +235,19 @@ div > img {
 
 #select-type,
 #yogatype {
-    margin: 0.3em 0;
+    margin: 4px 0;
     border-radius: 1vw;
 }
 
 .form-style {
     background-color: #f2efee;
     border: 1px solid #54473c;
-    padding: 3px 5px;
-}
-
-#select-type,
-#pick-date {
-    margin-right: 0.2em;
 }
 
 #time {
-    margin-bottom: 0.6em;
+    margin: 4px 0;
     font-family: playfair display, sans-serif;
-    border-radius: 1vw;
-    font-size: 3.5vw;
+    border-radius: 0.5vw;
 }
 
 #submit {
@@ -264,14 +262,13 @@ div > img {
 }
 
 #submit:hover {
-    font-size: 4vw;
+    font-size: 105%;
 }
 
 #yogatype {
     font-family: playfair display, sans-serif;
     background-color: #f2efee;
     border: 1px solid #54473c;
-    font-size: 3.3vw;
 }
 
 /* footer */
@@ -287,6 +284,7 @@ div > img {
 #media-four i {
     color: #cdc2ba;
     padding: 0.5em 1em;
+    font-size: 5vw;
 }
 
 /* Blog post preview */
@@ -369,10 +367,35 @@ div > img {
     .customers {
         width: 93%;
     }
+
+    .contact {
+        font-size: 3.5vw;
+    }
+
+    #submit {
+        font-size: 2.5vw;
+    }
+
+    .about h2 {
+        font-size: 4vw;
+    }
+
+    .reviewer {
+        font-size: 3.5vw;
+    }
+
+    #media-one i,
+    #media-two i,
+    #media-three i,
+    #media-four i {
+    padding: 0.5em 2em;
+    font-size: 4vw;
+    }
+
 }
 
 
-/* For small to medium screens up to size 850px wide */
+/* For small to medium screens from 850px wide */
 @media screen and (min-width: 850px) {
     .blog-preview h2 {
         font-size: 4vw;
@@ -384,7 +407,7 @@ div > img {
 
     .nav-container {
         font-size: 1.5em;
-        margin: 2em 2em 0;
+        margin: 0 2em 0;
     }
 
     #main-image {
@@ -397,7 +420,7 @@ div > img {
     }
 }
 
-/* For small to medium screens up to size 1200px wide */
+/* For small to medium screens from size 1000px wide */
 @media screen and (min-width: 1000px) {
     .nav-container {
         font-size: 2em;
@@ -417,7 +440,6 @@ div > img {
 
     #read-more a {
         border-radius: 1vw;
-        font-size: 3vw;
     }
 
     #read-more {
@@ -425,10 +447,6 @@ div > img {
     }
 
     .about p {
-        font-size: 2vw;
-    }
-
-    .about h2 {
         font-size: 2vw;
     }
 
@@ -482,7 +500,7 @@ div > img {
     #select-type,
     #yogatype {
         border-radius: 0.5vw;
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .contact {
@@ -492,12 +510,26 @@ div > img {
     #photos {
         column-count: 4;
     }
+
+    #submit,
+    #time {
+        font-size: 2.5vw;
+    }
+    
 }
 
-/* For small to medium screens up to size 1200px wide */
+/* For medium screens from 1200px wide */
 @media screen and (min-width: 1200px) {
     .about {
         width: 33%;
+    }
+
+    .about h2 {
+        font-size: 2.3vw;
+    }
+
+    .contact {
+        font-size: 2.3vw;
     }
 
     .about-containers {
@@ -506,8 +538,14 @@ div > img {
 
     .location-container,
     .about-containers {
+        text-align: center;
         flex-direction: row;
         align-items: stretch;
+    }
+
+    #fname, 
+    #lname {
+        padding: 10px 15px;
     }
 
 }
