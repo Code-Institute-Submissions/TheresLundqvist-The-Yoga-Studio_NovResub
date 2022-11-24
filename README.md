@@ -78,7 +78,7 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 * The full blog post pages matches the webpage with colors. 
 
-<img width="1000" src="documentation/blog-page.png">
+<img width="500" src="documentation/blog-page.png">
 
 ## **Gallery**
 
@@ -91,12 +91,13 @@ This website is to increase the awerness of The Yoga studio´s existence and for
 
 ## **Testing**
 
-* I tested that the page works in diffrent browsers such as Chrome, firefox and Microsoft Edge.
+| **Action** | **Result** |
+| ---------- | ---------- |
+| Test webpage on diffrent browsers | I tested that the page works in diffrent browsers such as Chrome, firefox and Microsoft Edge. |
+| Test that webpage is responsive | I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar. |
+| Webpage text is readable | I confirmed that the header, navigation, main, about us, reviews, footer, gallery and blog pages text are all readable and easy to understand. |
+| Test webpages links  |  I have confirmed that the links between diffrent pages work and are accessible.  |
 
-
-* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
-* I confirmed that the header, navigation, main, about us, reviews, footer, gallery and blog pages text are all readable and easy to understand.
-* I have confirmed that the links between diffrent pages work and are accessible.
 
 ## **Bugs**
 

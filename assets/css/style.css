@@ -319,10 +319,9 @@ div > img {
     font-weight: 600;
 }
 
-#blog-post h2 {
+.blog-header {
     color: #cdc2ba;
     font-family: oooh baby, sans-serif;
-    background-color: #54473c;
     border-radius: 1vw;
     padding: 10px 10px;
     margin-bottom: 10px;
