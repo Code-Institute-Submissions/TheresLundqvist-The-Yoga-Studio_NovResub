@@ -226,11 +226,13 @@ div > img {
 #fname {
     margin-top: 0.5em;
     border-radius: 1vw;
+    padding: 0.2em;
 }
 
 #lname {
     margin-top: 0.3em;
     border-radius: 1vw;
+    padding: 0.2em;
 }
 
 #select-type,
@@ -247,7 +249,8 @@ div > img {
 #time {
     margin: 4px 0;
     font-family: playfair display, sans-serif;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
+    padding: 0.05em 0 0.05em 0.5em;
 }
 
 #submit {
@@ -351,6 +354,14 @@ div > img {
 
     #photos {
         column-count: 2;
+    }
+
+    #time {
+        padding: 0.15em 0.5em;
+    }
+
+    #yogatype {
+        padding: 0.06em;
     }
 }
 
@@ -494,14 +505,21 @@ div > img {
     #fname, 
     #lname {
         border-radius: 0.5vw;
+        padding: 0.5em;
     }
 
     #select-type,
     #yogatype {
         border-radius: 0.5vw;
         font-size: 0.9em;
+        padding: 0;
     }
 
+    #time {
+        border-radius: 0.5vw;
+        font-size: 0.8em;
+        padding: 0.2em;
+    }
     .contact {
         font-size: 3.5vw;
     }
@@ -510,9 +528,10 @@ div > img {
         column-count: 4;
     }
 
-    #submit,
-    #time {
-        font-size: 2.5vw;
+    #submit {
+        margin-top: 0.5em;
+        border-radius: 1vw;
+        font-size: 2vw;
     }
     
 }
@@ -521,6 +540,10 @@ div > img {
 @media screen and (min-width: 1200px) {
     .about {
         width: 33%;
+    }
+
+    .about-text {
+        padding-top: 2em;
     }
 
     .about h2 {
@@ -542,9 +565,25 @@ div > img {
         align-items: stretch;
     }
 
-    #fname, 
-    #lname {
-        padding: 10px 15px;
+    .location-text {
+        width: 33%;
     }
 
+    #fname, 
+    #lname {
+        padding: 1em 2em;
+    }
+
+}
+
+/* For medium screens from 1900px wide */
+@media screen and (min-width: 1900px) {
+    #fname, 
+    #lname {
+        padding: 1.5em 5em;
+    }
+
+    .location-text {
+        font-size: 2vw;
+    }
 }

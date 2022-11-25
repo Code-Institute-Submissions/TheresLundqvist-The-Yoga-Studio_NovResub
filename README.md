@@ -1,6 +1,6 @@
 # **The Yoga Studio**
 
-The Yoga Studio website is an inspirational page for a yoga studio based in a small town in Sweden.  
+The Yoga Studio website is a inspirational page for a yoga studio based in a small town in Sweden.  
 The yoga studio is a warm, serene and hospitable studio with a clear mission - to make everyone feel welcome and  
 well taken care of - regardless of age or disabilities.   
   
@@ -19,7 +19,7 @@ of The Yoga studio´s existence and for anyone looking to start their yoga journ
 
  * The top of the page shows the studio name, a clickable link that takes the user back to the homepage.
  * To the right of the navigation user can find links to the home, blog and gallery pages.
- * The navigation has a light font and a darker background for good contrast.
+ * The navigation has a dark font and a lighter background for good contrast.
  * The studio name has a bigger font than the navigation bar to clearly state the studio and webpage's name.
 
  <img width="1000" src="documentation/header.png">
